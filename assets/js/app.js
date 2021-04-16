@@ -19,6 +19,7 @@ let header = $(`
    <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+   <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
    <div class="bike">
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 0 650 400" preserveAspectRatio="xMinYMin meet"> 
      <rect/>
@@ -99,8 +100,8 @@ let footer = $(`
 <footer class="footer">
   <div class="container p-4">
     <div class="row">
-      <div class="col-lg-6 col-md-12 mb-4 mb-md-0 justify-content-center">
-        <p class="tag" >"Develop a passion for learning. If you do, you will never cease to grow."
+      <div class="col-12 mb-4 mb-md-0 justify-content-center">
+        <p class="tag" >"Time stays long enough for anyone who will use it"
         </p>
           <div class="rounded-social-buttons tag">
            <a class="social-button linkedin" href="https://www.linkedin.com/in/jamal-rizki-66598777"  target="_blank" >
@@ -138,17 +139,7 @@ let footer = $(`
           </div>
       </div>
 
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-          <div class="form-style-6">
-            <h6 class="display">Get in Touch</h6>
-            <form>
-              <input type="text" name="field1" placeholder="Your Name" />
-              <input type="email" name="field2" placeholder="Email Address" />
-              <textarea name="field3" placeholder="Type your Message"></textarea>
-              <input type="submit" value="Send" />
-            </form>
-          </div>
-        </div>
+        
       </div>
     </div>
   </div>
