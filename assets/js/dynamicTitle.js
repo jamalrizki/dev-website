@@ -20,7 +20,7 @@ window.onload = function () {
   document.addEventListener("visibilitychange", function (e) {
     if (!document.hidden) {
       document.title = pageTitle;
-      favicon.href = "./assets/images/dp_male.svg";
+      favicon.href = "./assets/images/1.jpg";
     }
   });
 
@@ -28,11 +28,11 @@ window.onload = function () {
     blinkEvent = setInterval(() => {
       if (document.title === attentionMessage) {
         document.title = pageTitle;
-        favicon.href = "./assets/images/dp_male.svg";
+        favicon.href = "./assets/images/1.jpg";
       } else {
         document.title = attentionMessage;
         favicon.href = "./assets/images/folded.png";
       }
-    }, 1000);
+    }, 5000);
   }
 };
