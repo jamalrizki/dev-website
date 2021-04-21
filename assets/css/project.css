@@ -816,3 +816,61 @@ SVG ANIMATIONS PROJECT PAGE
     animation-duration: 3.3s;
     transform-origin: 785.132px 295.833px
   }
+
+   
+  .arrow {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    margin-left:-10px;
+  }
+  .arrow:before,
+  .arrow:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -6px;
+    width: 30px;
+    height: 7px;
+    border-radius: 10px;
+    display: block;
+    background: #babdc2;
+    opacity: 0.7;
+    transform:rotate(45deg);
+    -webkit-transform:rotate(45deg); 
+  }
+  .arrow:after{
+    right: inherit;
+    left: -6px;
+    transform:rotate(-45deg);
+    -webkit-transform:rotate(-45deg); 
+  }
+   
+  .animated{
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s both infinite;
+  }
+   
+   
+  @-webkit-keyframes bounce {
+    0% {-webkit-transform: translateY(0); opacity: 0;}
+    60% { opacity: 1;}
+    100% {-webkit-transform: translateY(60px); opacity: 0}
+  }
+   
+  @-moz-keyframes bounce {
+    0% {-webkit-transform: translateY(0); opacity: 0;}
+    60% { opacity: 1;}
+    100% {-webkit-transform: translateY(60px); opacity: 0}
+  }
+   
+  @-o-keyframes bounce {
+    0% {-webkit-transform: translateY(0); opacity: 0;}
+    60% { opacity: 1;}
+    100% {-webkit-transform: translateY(60px); opacity: 0}
+  }
+  @keyframes bounce {
+    0% {-webkit-transform: translateY(0); opacity: 0;}
+    60% { opacity: 1;}
+    100% {-webkit-transform: translateY(60px); opacity: 0}
+  }
