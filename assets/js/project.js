@@ -22,6 +22,14 @@ const projects = [
     Githublink: "https://github.com/jamalrizki/portfolio.git",
   },
   {
+    title: "Functional Cart made with Stripe and Commerce.js",
+    cardImage: "assets/images/project-page/Hattori.jpg",
+    description: "A music website made with Jquery, Javascript and Bootstrap.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://two-guns-gonzo.netlify.app",
+    Githublink: "",
+  },
+  {
     title: "Nucamp site",
     cardImage: "assets/images/project-page/aws.png",
     description: "Final bootcamp project using AWS, Node, MongoDB, React and Express",
