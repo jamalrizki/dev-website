@@ -47,11 +47,11 @@ const projects = [
   },
   {
     title: "E-commerce site",
-    cardImage: "assets/images/project-page/TDL.png",
+    cardImage: "assets/images/project-page/tdl1.png",
     description: "e-commerce.",
     tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
     Previewlink: "https://newecom.herokuapp.com/",
-    Githublink: "",
+    Githublink: "https://github.com/jamalrizki/ecommerce",
   },
   {
     title: "Bootcamp React Native Project",
