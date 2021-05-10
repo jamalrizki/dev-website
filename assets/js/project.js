@@ -47,7 +47,7 @@ const projects = [
   },
   {
     title: "E-commerce site",
-    cardImage: "assets/images/project-page/proshop.png",
+    cardImage: "assets/images/project-page/TDL.png",
     description: "e-commerce.",
     tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
     Previewlink: "https://newecom.herokuapp.com/",
