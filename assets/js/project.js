@@ -86,6 +86,14 @@ const projects = [
     Githublink: "https://github.com/jamalrizki/ajax-jquery-requests",
   },
   {
+    title: "Airbnb clone",
+    cardImage: "assets/images/project-page/airbnb.png",
+    description: "Javascript Drum Machine.",
+    tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
+    Previewlink: "https://air-bb-clone.web.app",
+    Githublink: "https://github.com/jamalrizki/airbnb",
+  },
+  {
     title: "Drum Machine",
     cardImage: "assets/images/project-page/drum.png",
     description: "Javascript Drum Machine.",
