@@ -110,6 +110,14 @@ const projects = [
     Githublink: "https://github.com/jamalrizki/Twogunz",
   },
   {
+    title: "Photoshop/Assignment",
+    cardImage: "assets/images/project-page/getu.png",
+    description: "API calls",
+    tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
+    Previewlink: "https://jamalrizki.github.io/photoshop-api/",
+    Githublink: "https://github.com/jamalrizki/photoshop-api",
+  },
+  {
     title: "Ajax-Jquery requests",
     cardImage: "assets/images/project-page/api.png",
     description: "API calls",
