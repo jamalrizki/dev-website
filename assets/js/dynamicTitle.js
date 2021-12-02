@@ -33,6 +33,6 @@ window.onload = function () {
         document.title = attentionMessage;
         favicon.href = "./assets/images/folded.png";
       }
-    }, 5000);
+    }, 50000);
   }
 };
