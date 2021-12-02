@@ -5,23 +5,43 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Google UX Design Certificate",
-    cardImage: "assets/images/education-page/coursera1.png",
+    title: "Aws Certified Cloud Practitioner <br> <br> ",
+    cardImage: "assets/images/education-page/aws.png",
+    moocLink: "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+  },
+  {
+    title: "MATH 1201 - College Algebra <br> <br> ",
+    cardImage: "assets/images/education-page/uopeople.png",
+    moocLink: "https://www.uopeople.edu/prepare-for-university/college-algebra-math-1201-learning-materials/",
+  },
+  {
+    title: "100 Days of Code - Python Bootcamp <br> <br> ",
+    cardImage: "assets/images/education-page/udemy.png",
+    moocLink: "https://www.udemy.com/course/100-days-of-code/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Python_v.PROF_la.EN_cc.US_ti.7380&utm_content=deal4584&utm_term=_._ag_78513466559_._ad_532193666528_._kw__._de_c_._dm__._pl__._ti_dsa-774930046209_._li_9004163_._pd__._&matchtype=b&gclid=EAIaIQobChMI6djO89HA9AIVDZyzCh11XA35EAAYASAAEgJ49vD_BwE",
+  },
+  {
+    title: "CS 1101 - Programming Fundamentals <br> <br> ",
+    cardImage: "assets/images/education-page/uopeople.png",
+    moocLink: "https://www.uopeople.edu/prepare-for-university/programming-fundamentals-java-cs-1101-learning-materials/",
+  },
+  {
+    title: "Google UX Design Certificate <br> <br> ",
+    cardImage: "assets/images/education-page/google-1.png",
     moocLink: "https://www.coursera.org/professional-certificates/google-ux-design",
   },
   {
-    title: "Learn Ethical Hacking From Scratch",
+    title: "Learn Ethical Hacking From Scratch <br> <br> ",
     cardImage: "assets/images/education-page/udemy.png",
     moocLink: "https://www.udemy.com/course/learn-ethical-hacking-from-basics/",
   },
   {
-    title: "Facebook Social Media Marketing",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/professional-certificates/facebook-social-media-marketing",
+    title: "Facebook Certified Social Media Marketing Associate ",
+    cardImage: "assets/images/education-page/Meta-Logo.png",
+    moocLink: "https://www.facebook.com/business/learn/certification/exams/100-101-exam",
   },
   {
-    title: "Google IT Support",
-    cardImage: "assets/images/education-page/coursera1.png",
+    title: "Google IT Support Professional <br> <br> ",
+    cardImage: "assets/images/education-page/google-1.png",
     moocLink: "https://www.coursera.org/professional-certificates/google-it-support?",
   },
   {
@@ -30,12 +50,7 @@ const moocscards = [
     moocLink: "https://www.coursera.org/specializations/graphic-design-elements-non-designers",
   },
   {
-    title: "Facebook Certified Digital Marketing Associate",
-    cardImage: "assets/images/education-page/fb2.png",
-    moocLink: "https://www.facebook.com/business/learn/certification/exams/100-101-exam",
-  },
-  {
-    title: "WSET Level II in Wine and Spirits",
+    title: "WSET Level II in Wine and Spirits <br> <br> ",
     cardImage: "assets/images/education-page/wset.png",
     moocLink: "https://www.wsetglobal.com/qualifications/wset-level-2-award-in-wines",
   },
@@ -55,7 +70,7 @@ const moocscards = [
     moocLink: "https://www.coursera.org/learn/front-end-react",
   },
   {
-    title: "Javascript Data Structures And Algorithms",
+    title: "Javascript Data Structures And Algorithms  <br> ",
     cardImage: "assets/images/education-page/udemy.png",
     moocLink: "https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/",
   },
@@ -65,7 +80,7 @@ const moocscards = [
     moocLink: "https://www.coursera.org/learn/excel-essentials?specialization=excel",
   },
   {
-    title: "Cert 3 in Hospitality",
+    title: "Cert 3 in Hospitality <br> <br> ",
     cardImage: "assets/images/education-page/hospo.jpg",
     moocLink: "https://smartandskilled.nsw.gov.au/sands/traineeship/SIT30616?meta_l_sand=91054&meta_w_sand=108",
   },
@@ -75,7 +90,7 @@ const moocscards = [
     moocLink: "https://www.coursera.org/learn/introclassicalmusic",
   },
   {
-    title: "Cert 4 in Small Business Management",
+    title: "Cert 4 in Small Business Management <br> <br> ",
     cardImage: "assets/images/education-page/tafe.jpg",
     moocLink: "https://www.myskills.gov.au/courses/details?Code=BSB42518",
   },

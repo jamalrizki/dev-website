@@ -4,11 +4,11 @@
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Student",
-    cardImage: "assets/images/experience-page/study3.jpg",
-    place: "Remote Study",
-    time: "(March, 2020 - present)",
-    desp: "<li>Completed a Full Stack coding bootcamp.</li> <li>Completed courses several areas including Ux design, It Support, Social Media, Cybersecurity and Design .</li>",
+    title: "Web Developer",
+    cardImage: "assets/images/experience-page/c13.png",
+    place: "Cadence 13",
+    time: "(June, 2021 - present)",
+    desp: "<li>Maintaining and Creating websites which include;</li> <li><a class='link-text' href='https://c13features.com' target='_blank'>https://c13features.com</a> - This is the latest venture by the company, my job was to help wireframe then build out website using Html, Css and Javascript.</li> <li><a class='link-text' href='https://shows.cadence13.com' target='_blank'>https://shows.cadence13.com</a> - This is the hub for all the original podcasts created. My job was to create and Maintain Micro-sites that utilize a Python/React front end and is hosted on AWS via a Jenkins/Docker Pipeline.</li> <li><a class='link-text' href='https://cadence13.com' target='_blank'>https://cadence13.com </a>- This is the original company website. It is a wordpress site and my job was to maintain and update the sites content.</li><li><a class='link-text' href='https://www.rambleofficial.com' target='_blank'>https://www.rambleofficial.com</a> - This is a company off shoot My job was to maintain and update the website which is a Html, Css and Javascript project.</li>",
   },
   {
     title: "Freelance Developer",

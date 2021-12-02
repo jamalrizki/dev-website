@@ -54,7 +54,10 @@ html[data-theme = 'dark']
 {
     height: 90%;
     width: 90%;
+    
 }
+
+
 .s2 .card, .s2 img
 {
     border-radius: 3rem;
