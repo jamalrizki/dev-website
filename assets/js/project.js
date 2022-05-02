@@ -54,7 +54,7 @@ const projects = [
     Githublink: "https://github.com/jamalrizki/portfolio.git",
   },
   {
-    title: "We Can Do Hard Things Podcast",
+    title: "We Can Do Hard Things Podcast - Glennon Doyle",
     cardImage: "assets/images/project-page/wecandohardthingspodcast.png",
     description: "e-commerce.",
     tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
