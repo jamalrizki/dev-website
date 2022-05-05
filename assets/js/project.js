@@ -104,15 +104,7 @@ const projects = [
     Previewlink: "https://two-guns-gonzo.netlify.app",
     Githublink: "",
   },
-  {
-    title: "Nucamp site",
-    cardImage: "assets/images/project-page/aws.jpg",
-    description:
-      "Final bootcamp project using AWS, Node, MongoDB, React and Express",
-    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "http://3.14.249.24/home",
-    Githublink: "https://github.com/jamalrizki/nucampsite-aws.git",
-  },
+  
   {
     title: "Cocktail App - React Native",
     cardImage: "assets/images/project-page/cocktail.jpg",
