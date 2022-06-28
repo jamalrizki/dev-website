@@ -10,7 +10,7 @@ particlesJS('particles-js', {
 			}
 		},
 		color: {
-			value: [ '#2EB67D', '#ECB22E', '#E01E5B', '#36C5F0' ]
+			value: [ '#0D0D0D', '#404040', '#737373', '#29C7D9' ]
 			
 		},
 		shape: {
