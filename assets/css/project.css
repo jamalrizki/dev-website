@@ -438,15 +438,11 @@ ul{
 }
 
 @media only screen and (max-width: 767px) {
-  .project-box {
-    margin-top: 18rem;
-  }
+  
 }
 
 @media only screen and (max-width: 450px) {
-  .project-box {
-    margin-top: 18rem;
-  }
+
 }
 
 
