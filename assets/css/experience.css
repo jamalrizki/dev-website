@@ -171,6 +171,7 @@ ul ol{
   
 }
 
+
 @media(max-width: 675px) {
   .card1 .featured-image {
     width: 90%;
@@ -184,6 +185,8 @@ ul ol{
     text-align: left;
   }
 }
+
+
 
 @media(min-width: 60rem)
 {
@@ -959,4 +962,9 @@ h1 {
 
   dt {
     font-weight: 400 !important;
+  }
+  @media(max-width: 600px) {
+    .skills {
+      width: 300px;
+    }
   }
