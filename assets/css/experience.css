@@ -158,6 +158,20 @@ ul ol{
   .heading1{
     margin-top: 5em;
   }
+  
+}
+
+@media(max-width: 675px) {
+  .card1 .featured-image {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .card1 {
+    box-shadow: none !important;
+  }
+  .card1 .card-body {
+    text-align: center;
+  }
 }
 
 @media(min-width: 60rem)

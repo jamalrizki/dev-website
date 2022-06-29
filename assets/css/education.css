@@ -71,16 +71,14 @@ html[data-theme = 'dark']
 
 @media only screen and (max-width: 767px) {
 
-    .edSection{
-        margin-top: 400px;
+    .new {
+      min-height: 20% !important;
     }
 }
 
 @media only screen and (max-width: 600px) {
 
-    .edSection{
-        margin-top: 250px;
-    }
+    
 }
 
 /* Card Hover Effect */

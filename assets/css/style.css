@@ -745,6 +745,9 @@ form{
         text-align: center;
         transform: translateY(25%);
      }
+     .space {
+      height: 55vh !important;
+    }
    }
 
    
@@ -808,4 +811,8 @@ form{
 
   .link-text {
     color: #29C7D9 !important;
+  }
+
+  .space {
+    height: 55vh !important;
   }
