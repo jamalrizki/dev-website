@@ -10,9 +10,19 @@ const moocscards = [
     moocLink: "https://aws.amazon.com/certification/certified-cloud-practitioner/",
   },
   {
+    title: "Docker Mastery: with Kubernetes +Swarm from a Docker Captain <br> ",
+    cardImage: "assets/images/education-page/udemy.png",
+    moocLink: "https://www.udemy.com/course/docker-mastery",
+  },
+  {
     title: "MATH 1201 - College Algebra <br> <br> ",
     cardImage: "assets/images/education-page/uopeople.png",
     moocLink: "https://www.uopeople.edu/prepare-for-university/college-algebra-math-1201-learning-materials/",
+  },
+  {
+    title: "Learn Photoshop, Web Design & Profitable Freelancing 2022   <br> ",
+    cardImage: "assets/images/education-page/udemy.png",
+    moocLink: "https://www.udemy.com/course/learn-photoshop-web-design-profitable-freelancing/",
   },
   {
     title: "100 Days of Code - Python Bootcamp <br> <br> ",
@@ -23,6 +33,11 @@ const moocscards = [
     title: "CS 1101 - Programming Fundamentals <br> <br> ",
     cardImage: "assets/images/education-page/uopeople.png",
     moocLink: "https://www.uopeople.edu/prepare-for-university/programming-fundamentals-java-cs-1101-learning-materials/",
+  },
+  {
+    title: "Wordpress for Beginners - Master Wordpress Quickly <br> ",
+    cardImage: "assets/images/education-page/udemy.png",
+    moocLink: "https://www.udemy.com/course/wordpress-for-beginners-course/",
   },
   {
     title: "Google UX Design Certificate <br> <br> ",

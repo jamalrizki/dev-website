@@ -11,11 +11,11 @@ const exp = [
     desp: "<li>Maintaining and Creating websites which include;</li> <li><a class='link-text' href='https://c13features.com' target='_blank'>https://c13features.com</a> - This is the latest venture by the company, my job was to help wireframe then build out website using Html, Css and Javascript.</li> <li><a class='link-text' href='https://shows.cadence13.com' target='_blank'>https://shows.cadence13.com</a> - This is the hub for all the original podcasts created. My job was to create and Maintain Micro-sites that utilize a Python/React front end and is hosted on AWS via a Jenkins/Docker Pipeline.</li> <li><a class='link-text' href='https://cadence13.com' target='_blank'>https://cadence13.com </a>- This is the original company website. It is a wordpress site and my job was to maintain and update the sites content. I also built monthly email campaigns using Mailchimp or HTML.</li><li><a class='link-text' href='https://www.rambleofficial.com' target='_blank'>https://www.rambleofficial.com</a> - This is a company off shoot My job was to maintain and update the website which is a Html, Css and Javascript project.</li><li><a class='link-text' href='http://wecandohardthingspodcast.com' target='_blank'>http://wecandohardthingspodcast.com</a> - This is the homepage for Glennon Doyles's hit podcast <i>'We Can Do Hard Things'&nbsp</i> I maintained and updated the Website which is made with a Cornerstone Theme in a Wordpress environment.</li>",
   },
   {
-    title: "Freelance Developer",
-    cardImage: "assets/images/experience-page/free5.jpg",
-    place: "Remote",
-    time: "(Jan, 2021 - present)",
-    desp: "<li>Assisting Musicians to build websites using Javascript languages</li><li>Creating an e-commerce site for a independent fashion brand.</li><li>Personal projects for my own photography and musical collaborations.</li>",
+    title: "Associate Instructor",
+    cardImage: "assets/images/experience-page/thrive.png",
+    place: "Thrive DX",
+    time: "(May, 2022 - present)",
+    desp: "<li>Associate instructor for Old Dominion University - School Of Continuing Education Software Development Bootcamp - Assisted the  Lead Instructor with Managing classroom and teaching materials for the student Javascript Milestone project</li>",
   },
   {
     title: "Musician",

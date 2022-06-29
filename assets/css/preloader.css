@@ -3,9 +3,9 @@
 }
 
 .loader {
-  --duration: 3s;
-  --primary: rgba(39, 94, 254, 1);
-  --primary-light: #2f71ff;
+  --duration: 2s;
+  --primary: #29C7D9;
+  --primary-light: #29C7D9;
   --primary-rgba: rgba(39, 94, 254, 0);
   width: 200px;
   height: 320px;

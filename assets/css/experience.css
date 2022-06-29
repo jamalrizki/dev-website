@@ -146,11 +146,11 @@ ul ol{
 .heading1 {
   font-size: 32px;
   line-height: 1.2;
-  font-weight: bold;
-  color: #222;
+  font-weight: 300;
+  color: #404040;
   margin: 0.5em 0;
   margin-top: 5rem;
-  color:var(--text);
+  
 }
 
 @media(min-width: 675px){
@@ -800,6 +800,7 @@ h1 {
   color: #cecece;
   text-shadow: 0 1px 1px #fff;
 }
+
 /*
 ----------------------------
        Programs
@@ -928,4 +929,8 @@ h1 {
     0% {-webkit-transform: translateY(0); opacity: 0;}
     60% { opacity: 1;}
     100% {-webkit-transform: translateY(60px); opacity: 0}
+  }
+
+  dt {
+    font-weight: 400 !important;
   }

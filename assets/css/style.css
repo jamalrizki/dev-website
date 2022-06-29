@@ -95,7 +95,8 @@ body {
   margin: 0;
   overflow-x: hidden;
   color: var(--text);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   background-color: var(--bg);
 }
 
@@ -274,7 +275,7 @@ html {
 
 @media only screen and (min-width: 1024px){
   .current-link {
-    font-weight: bolder;
+    font-weight: bold;
     position: relative;
     z-index: 1;
     text-align: center;
@@ -289,7 +290,7 @@ html {
     margin-right: auto;
     bottom: 0;
     width: 32%;
-    border-bottom: 3px solid #22B6A7;
+    border-bottom: 3px solid #29C7D9;
   }
 
 
@@ -374,7 +375,7 @@ html {
 
 .footer{
   padding-top: 10px;
-  background-color:#040406;
+  background-color:#0D0D0D;
 }
 
 .tag{
@@ -787,4 +788,20 @@ form{
       text-align: center;
       transform: translateY(25%);
    }
+  }
+
+  h2, h3, .pre-heading {
+    font-weight: 300 !important;
+  }
+
+  .current-link {
+    font-weight: 400 !important;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #404040 !important;
+  }
+
+  .bg-light {
+    background-color: #fff !important;
   }
