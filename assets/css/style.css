@@ -795,7 +795,7 @@ form{
   }
 
   .current-link {
-    font-weight: 400 !important;
+    font-weight: 300 !important;
   }
 
   .navbar-light .navbar-nav .nav-link {
@@ -804,4 +804,8 @@ form{
 
   .bg-light {
     background-color: #fff !important;
+  }
+
+  .link-text {
+    color: #29C7D9 !important;
   }

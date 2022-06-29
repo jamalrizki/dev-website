@@ -56,7 +56,7 @@ html[data-theme="light"] {
   margin-top: 20px;
 }
 .link-text {
-  color: blue !important;
+  color: #29C7D9 !important;
 }
 @media (max-width: 550px) {
   .main {
@@ -115,6 +115,7 @@ ul ol{
   overflow: hidden;
   width: 100%;
   height: 300px;
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -814,9 +815,9 @@ h1 {
 		margin:40px auto;
 		padding:20px;
 		background:#fff;
-		box-shadow: 0 3px 5px 2.5px rgba(0, 0, 0, 0.5);
-		-moz-box-shadow: 0 3px 5px 2.5px rgba(0, 0, 0, 0.5);
-		-webkit-box-shadow: 0 3px 5px 2.5px rgba(0, 0, 0, 0.5);
+		box-shadow: 0 3px 5px 2.5px #D9D9D9;
+		-moz-box-shadow: 0 3px 5px 2.5px #D9D9D9;
+		-webkit-box-shadow: 0 3px 5px 2.5px #D9D9D9;
 	}
 	
 	.skills h2{
@@ -832,7 +833,7 @@ h1 {
 		margin: 0 0 3px 0;
 		text-align: center;
 		position: relative;
-		border: 4px double rgba(0,0,0,0.1);
+		border: 4px double #737373;
 		background:rgba(255,255,255,0.5);
 	}
 		
@@ -852,7 +853,7 @@ h1 {
 		position: absolute;
 		left: 0;
 		top:0;
-		background: url("http://www.kriesi.at/themes/flashlight/wp-content/themes/flashlight/images/patterns/light-diagonal-wide-left-to-right.png") repeat rgba(0, 155, 119, 0.8);
+		background: url("http://www.kriesi.at/themes/flashlight/wp-content/themes/flashlight/images/patterns/light-diagonal-wide-left-to-right.png") repeat #29C7D9;
 		z-index:0;
 		height:100%;
 		width:0px;

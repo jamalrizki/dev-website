@@ -54,6 +54,7 @@ html[data-theme = 'dark']
 {
     height: 90%;
     width: 90%;
+    padding: 20%;
     
 }
 
@@ -369,5 +370,12 @@ html[data-theme = 'dark']
   0% {-webkit-transform: translateY(0); opacity: 0;}
   60% { opacity: 1;}
   100% {-webkit-transform: translateY(60px); opacity: 0}
+}
+
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p, .mooc-title {
+  font-weight: 300 !important;
+  color: #404040;
 }
 
