@@ -28,6 +28,10 @@ html[data-theme="light"] {
   -webkit-text-fill-color: var(--txt-fill);
 }
 
+.sp-2 {
+  height: 85vh;
+}
+
 @media(min-width: 740px) and (max-width: 750px)
 {
   section{
@@ -153,11 +157,17 @@ ul ol{
   margin-top: 5rem;
   
 }
+@media(max-width: 950px) {
+  .sp-2 {
+  height: 55vh ;
+  }
+}
 
 @media(min-width: 675px){
   .heading1{
     margin-top: 5em;
   }
+
   
 }
 
