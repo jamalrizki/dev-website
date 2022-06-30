@@ -813,6 +813,44 @@ form{
     color: #29C7D9 !important;
   }
 
-  .space {
-    height: 55vh !important;
+  
+  .sp-2 {
+    height: 650px;
+  }
+  
+
+  @media(max-width: 1500px) {
+    .sp-2 {
+      height: 550px;
+    }
+  }
+
+  @media(max-width: 1200px) {
+    .sp-2 {
+      height: 500px;
+    }
+  }
+
+  @media(max-width: 1080px) {
+    .sp-2 {
+      height: 400px;
+    }
+  }
+
+  @media(max-width: 870px) {
+    .sp-2 {
+      height: 400px;
+    }
+  }
+
+  @media(max-width: 770px) {
+    .sp-2 {
+      height: 650px;
+    }
+  }
+
+  @media(max-width: 400px) {
+    .sp-2 {
+      height: 500px;
+    }
   }
