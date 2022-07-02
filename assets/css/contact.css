@@ -838,7 +838,7 @@ svg {
     height: 7px;
     border-radius: 10px;
     display: block;
-    background: #babdc2;
+    background: #D9D9D9;
     opacity: 0.7;
     transform:rotate(45deg);
     -webkit-transform:rotate(45deg); 
@@ -892,7 +892,7 @@ form { max-width:420px; margin:50px auto; }
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #404040;
+  border:2px solid #D9D9D9;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -912,11 +912,11 @@ textarea {
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:#404040;
+  background: #29C7D9;
   border-radius:5px;
   border:0;
   cursor:pointer;
-  color:white;
+  color: #fff;
   font-size:24px;
   padding-top:10px;
   padding-bottom:10px;
@@ -924,4 +924,4 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#404040; }
+[type="submit"]:hover { background:#000;  }
