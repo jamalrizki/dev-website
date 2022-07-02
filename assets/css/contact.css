@@ -925,3 +925,10 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#000;  }
+
+@media(max-width: 600px)
+{ 
+  svg {
+    width: 200px;
+  }
+}
