@@ -2,8 +2,8 @@
 
 html[data-theme="light"] {
   --bg1-color: #DDE1E7;
-  --text-color: #6C757D;
-  --shadow-col1: #babdc2;
+  --text-color: #404040;
+  --shadow-col1: #D9D9D9;
   --shadow-col2:#ffffff;
   --meta-col: #444;
   --head-col: black;
@@ -20,6 +20,19 @@ html[data-theme="light"] {
   --head-col: #fff;
  }
 /*Main section*/
+
+ul, li {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #404040;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
 
 .head-upper{
   background: var(--bg-txt-img);
