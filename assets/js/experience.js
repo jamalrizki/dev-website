@@ -8,21 +8,21 @@ const exp = [
     cardImage: "assets/images/experience-page/c13.jpg",
     place: "Cadence 13",
     time: "(June, 2021 - present)",
-    desp: "<li>Maintaining and Creating websites which include;</li> <li><a class='link-text' href='https://c13features.com' target='_blank'>https://c13features.com</a> - This is the latest venture by the company, my job was to help wireframe then build out website using Html, Css and Javascript.</li> <li><a class='link-text' href='https://shows.cadence13.com' target='_blank'>https://shows.cadence13.com</a> - This is the hub for all the original podcasts created. My job was to create and Maintain Micro-sites that utilize a Python/React front end and is hosted on AWS via a Jenkins/Docker Pipeline.</li> <li><a class='link-text' href='https://cadence13.com' target='_blank'>https://cadence13.com </a>- This is the original company website. It is a wordpress site and my job was to maintain and update the sites content. I also built monthly email campaigns using Mailchimp or HTML.</li><li><a class='link-text' href='https://www.rambleofficial.com' target='_blank'>https://www.rambleofficial.com</a> - This is a company off shoot My job was to maintain and update the website which is a Html, Css and Javascript project.</li><li><a class='link-text' href='http://wecandohardthingspodcast.com' target='_blank'>http://wecandohardthingspodcast.com</a> - This is the homepage for Glennon Doyles's hit podcast <i>'We Can Do Hard Things'&nbsp</i> I maintained and updated the Website which is made with a Cornerstone Theme in a Wordpress environment.</li>",
+    desp: "<li><a class='link-text' href='https://c13features.com' target='_blank'>c13features.com</a> - Designed wireframes for this highly visible, podcast movie concept site with HTML, CSS, and JavaScript.</li> <li><a class='link-text' href='https://shows.cadence13.com' target='_blank'>shows.cadence13.com</a> - Created and updated micro-sites hosting podcasts with Python/React and Jenkins/Docker Pipeline.</li> <li><a class='link-text' href='https://cadence13.com' target='_blank'>cadence13.com </a> - Updated, maintained, and improved the company’s website, including all site content with WordPress.</li><li><a class='link-text' href='https://www.rambleofficial.com' target='_blank'>rambleofficial.com</a> - Project Lead over the establishment of a dedicated influencer website with HTML, CSS, and JavaScript.</li><li><a class='link-text' href='http://wecandohardthingspodcast.com' target='_blank'>wecandohardthingspodcast.com</a> - Leveraged a Cornerstone Theme in a WordPress environment to maintain the site.</li><li><a class='link-text' href='https://sofiafranklyn.com' target='_blank'>Sofiafranklyn.com </a> - Performed basic CSS maintenance and updates on the client’s Shopify store.</li>",
   },
   {
     title: "Associate Instructor",
     cardImage: "assets/images/experience-page/thrive.jpg",
     place: "Thrive DX",
     time: "(May, 2022 - present)",
-    desp: "<li>Associate instructor for Old Dominion University - School Of Continuing Education Software Development Bootcamp - Assisted the  Lead Instructor with Managing classroom and teaching materials for the student Javascript Milestone project</li>",
+    desp: "<b>Multiple Locations (Old Dominion University, North Carolina State University)</b><li>Facilitate co-teaching programs as part of a software development bootcamp for American universities.</li><li>Serve as a subject matter expert for website development tools and technologies as well as Agile methodologies/frameworks.</li><li>Promote a professional learning culture grounded in adult learning theory and cutting-edge web development instruction.</li><li>Assist the Lead Instructor with managing classroom learning and the creation of teaching materials.</li><li>Provide instruction, guidance, and advisement to students on the JavaScript Milestone project and CSS Frameworks modules.</li><li>Create and deliver student assessments, testing, and analysis of progress performance.</li>",
   },
   {
     title: "Musician",
     cardImage: "assets/images/experience-page/gat3.jpg",
     place: "Worldwide",
     time: "(2007 - 2020)",
-    desp:"<li>Worked as a musician on cruise ships, gigs include BB Kings Blues Club, Seabourn, Princess, Crystal, Holland America, Carnival and Royal Caribbean Cruise Lines.</li><li>Worked in Hotels in Dubai and Abu Dhabi.</li><li>Played on tours, bars, restraunts, weddings and festivals in New Zealand, Australia, London, Nashville and Miami.</li>",
+    desp:"<li>Musician (Guitarist) | Multiple Cruise Lines, International Hotels (Dubai & Abu Dhabi), & Private Clients | 15+ Years</li>",
   },
 ];
 
