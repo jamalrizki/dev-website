@@ -30,11 +30,19 @@ const projects = [
     Githublink: "https://gitlab.com/jamalbrizki",
   },
   {
+    title: "Pineapple Street Studios",
+    cardImage: "assets/images/project-page/pineapple.png",
+    description: "A photography website made with React.",
+    tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
+    Previewlink: "https://www.pineapple.fm",
+    Githublink: "https://gitlab.com/jamalbrizki",
+  },
+  {
     title: "Ramble",
     cardImage: "assets/images/project-page/ramble.jpg",
     description: "A photography website made with React.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
-    Previewlink: "https://www.rambleofficial.com/index.html",
+    Previewlink: "https://jovial-bohr-a0a648.netlify.app",
     Githublink: "https://gitlab.com/jamalbrizki",
   },
   {
