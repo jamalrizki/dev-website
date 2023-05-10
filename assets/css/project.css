@@ -96,15 +96,38 @@ a:hover {
   background-color: #fff;
   border: 0;
   border-radius: 10px;
-  min-height: 21.5rem;
+  min-height: 16.5rem;
   position: relative;
   overflow: hidden;
   box-shadow: 0 19px 38px var(--shadow1), 0 15px 12px var(--shadow2);
 }
 
-.card .wrapper:hover .data {
-  transform: translateY(0);
+.btn-project {
+    width: 70px;
+    height: 25px;
+    background-color: #29C7D9;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+    line-height: 20px;
+    color: #eee;
+    border-radius: 5px;
+    box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+
 }
+.btn-project a {
+  color: #fff;
+}
+/* .card .wrapper:hover .data {
+  transform: translateY(0);
+} */
+.card .wrapper {
+transition: transform 450ms;
+}
+.card .wrapper:hover  {
+  transform: scale(1.08);
+} 
 
 .card .data {
   position: absolute;
@@ -122,7 +145,7 @@ a:hover {
 }
 
 .card .data .content {
-  padding: 1em;
+  padding: .2em 1em;
   position: relative;
   z-index: 1;
 }
@@ -135,7 +158,7 @@ a:hover {
 }
 
 .card .title {
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
   margin-top: 0em;
   font-size: 0.65em;
 }
@@ -168,8 +191,8 @@ a:hover {
 @media(min-width: 60rem)
 {
   .card .title {
-    padding-bottom: 4rem;
-    font-size: 1.2em;
+    padding-bottom: 0.2rem;
+    font-size: 1em;
   }
 }
 
@@ -228,7 +251,7 @@ input[type="text"]{
 }
 
 .skill-card {
-  width: 300px;
+  width: 400px;
   border: 0;
   border-radius: 10px;
   margin: 20px;
@@ -458,7 +481,7 @@ ul{
   @media (min-width: 960px) {
     .skill-card .data {
       color: #fff;
-      transform: translateY(calc(80px + 4em));
+      transform: translateY(calc(110px + 4em));
       padding: 5px;
     }
 }
@@ -875,3 +898,8 @@ SVG ANIMATIONS PROJECT PAGE
     font-weight: 300 !important;
   }
 
+  .wrapper {
+    position: relative;
+  }
+  
+  
