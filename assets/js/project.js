@@ -7,21 +7,21 @@ const projects = [
   {
     title: "C13Features A Podcast Movie Studio",
     cardImage: "assets/images/project-page/static/features-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/features-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/features-gif.gif",
     Previewlink: "https://c13features.com",
 
   },
   {
     title: "Cadence 13 Podcast Showhub",
     cardImage: "assets/images/project-page/gifs/showhub-gif.gif",
-    gifUrl: "assets/images/project-page/gifs/showhub-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/showhub-gif.gif",
     Previewlink: "https://shows.cadence13.com",
 
   },
   {
     title: "Cadence13.com",
     cardImage: "assets/images/project-page/static/cadence-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/cadence-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/cadence-gif.gif",
     Previewlink: "https://cadence13.com",
 
   },
