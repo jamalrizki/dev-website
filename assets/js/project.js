@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: "Cadence 13 Podcast Showhub",
-    cardImage: "assets/images/project-page/gifs/showhub-gif.gif",
+    cardImage: "https://jamal-dev-website.s3.amazonaws.com/Gifs/showhub-gif.gif",
     gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/showhub-gif.gif",
     Previewlink: "https://shows.cadence13.com",
 
@@ -28,35 +28,35 @@ const projects = [
   {
     title: "Pineapple Street Studios",
     cardImage: "assets/images/project-page/static/pineapple-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/pineapple-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/pineapple-gif.gif",
     Previewlink: "https://www.pineapple.fm",
 
   },
     {
     title: "Photography Website",
     cardImage: "assets/images/project-page/static/photography-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/photography-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/photography-gif.gif",
     Previewlink: "https://sad-neumann-cd33a2.netlify.app/gallery2",
    
   },
   {
     title: "Music Website",
     cardImage: "assets/images/project-page/static/music-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/music-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/music-gif.gif",
     Previewlink: "https://stoic-colden-5af388.netlify.app",
     
   },
   {
     title: "Sofia Franklyn",
     cardImage: "assets/images/project-page/static/sofia-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/sofia-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/sofia-gif.gif",
     Previewlink: "https://sofiafranklyn.com",
 
   },
    {
     title: "Netflix Clone",
     cardImage: "assets/images/project-page/static/netflix-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/netflix-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/netflix-gif.gif",
     Previewlink: "https://netflix-clone-d4b36.web.app",
 
   },
@@ -64,7 +64,7 @@ const projects = [
   {
     title: "Ramble",
     cardImage: "assets/images/project-page/static/ramble-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/ramble-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/ramble-gif.gif",
     Previewlink: "https://jovial-bohr-a0a648.netlify.app",
 
   },
@@ -72,91 +72,91 @@ const projects = [
   {
     title: "Email Template",
     cardImage: "assets/images/project-page/static/email-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/email-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/email-gif.gif",
     Previewlink: "https://jamalrizki.github.io/email-template/",
 
   },
   {
     title: "Fly On The Wall Podcast - Email Marketing",
     cardImage: "assets/images/project-page/static/fly-on-the-wall-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/fly-on-the-wall-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/fly-on-the-wall-gif.gif",
     Previewlink: "https://jamalrizki.github.io/fly-on-the-wall-email/",
 
   },
   {
     title: "Cocktail App - React Native",
     cardImage: "assets/images/project-page/static/cocktail-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/cocktail-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/cocktail-gif.gif",
     Previewlink: "https://youtu.be/kk5hkRLbeP4",
 
   },
   {
     title: "Tesla Clone",
     cardImage: "assets/images/project-page/static/tesla-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/tesla-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/tesla-gif.gif",
     Previewlink: "https://tesla-clone-d09a2.web.app",
 
   },
   {
     title: "Medium",
     cardImage: "assets/images/project-page/static/medium-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/medium-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/medium-gif.gif",
     Previewlink: "https://fluffy-pasca-3faeee.netlify.app/post/my-first-post",
 
   },
   {
     title: "Car Company Template",
     cardImage: "assets/images/project-page/static/car-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/car-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/car-gif.gif",
     Previewlink: "https://jamalrizki.github.io/car-website/",
 
   },
   {
     title: "Showtime UI",
     cardImage: "assets/images/project-page/static/showtime-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/showtime-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/showtime-gif.gif",
     Previewlink: "https://www.jrizki.com/projects.html",
 
   },
   {
     title: "Apple Clone",
     cardImage: "assets/images/project-page/static/apple-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/apple-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/apple-gif.gif",
     Previewlink: "https://jamalrizki.github.io/apple-clone",
 
   },
    {
     title: "Player",
     cardImage: "assets/images/project-page/static/player-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/player-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/player-gif.gif",
     Previewlink: "https://shows.cadence13.com/player/the-sunshine-place",
 
   },
   {
     title: "We Can Do Hard Things Podcast - Glennon Doyle",
     cardImage: "assets/images/project-page/static/we-can-do-hard-things-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/we-can-do-hard-things-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/we-can-do-hard-things-gif.gif",
     Previewlink: "http://wecandohardthingspodcast.com",
  
   },
   {
     title: "D3 Emissions",
     cardImage: "assets/images/project-page/static/d3-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/d3-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/d3-gif.gif",
     Previewlink: "https://jamalrizki.github.io/d3-emissions/",
 
   },
   {
     title: "Expense Tracker",
     cardImage: "assets/images/project-page/static/expense-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/expense-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/expense-gif.gif",
     Previewlink: "https://expense-tracking.netlify.app",
 
   },
   {
     title: "Airbnb clone",
     cardImage: "assets/images/project-page/static/airbnb-static.jpg",
-    gifUrl: "assets/images/project-page/gifs/airbnb-gif.gif",
+    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/airbnb-gif.gif",
     Previewlink: "https://air-bb-clone.web.app",
 
   },

@@ -149,7 +149,8 @@ html[data-theme = 'dark']
 }
 
 .card {
-  border-color: #D9D9D9;
+  /* border-color: #D9D9D9; */
+  background-color:  #F5F4F7;
 }
 
 #mooc .card {
