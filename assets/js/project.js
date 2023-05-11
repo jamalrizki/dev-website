@@ -7,7 +7,7 @@ const projects = [
   {
     title: "C13Features A Podcast Movie Studio",
     cardImage: "assets/images/project-page/static/features-static.jpg",
-    gifUrl: "https://jamal-dev-website.s3.amazonaws.com/Gifs/features-gif.gif",
+    gifUrl: "assets/images/project-page/static/features-static.jpg",
     Previewlink: "https://c13features.com",
 
   },

@@ -1,14 +1,13 @@
 //  Work experience cards
 
-
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Web Developer",
     cardImage: "assets/images/experience-page/c13.jpg",
-    place: "Cadence 13",
-    time: "(June, 2021 - present)",
-    desp: "<li><a class='link-text' href='https://c13features.com' target='_blank'>c13features.com</a> - Designed wireframes for this highly visible, podcast movie concept site with HTML, CSS, and JavaScript.</li> <li><a class='link-text' href='https://shows.cadence13.com' target='_blank'>shows.cadence13.com</a> - Created and updated micro-sites hosting podcasts with Python/React and Jenkins/Docker Pipeline.</li> <li><a class='link-text' href='https://cadence13.com' target='_blank'>cadence13.com </a> - Updated, maintained, and improved the company’s website, including all site content with WordPress.</li><li><a class='link-text' href='https://pineapple.fm' target='_blank'>pineapple.fm </a> - Leveraged a Squarespace environment to build and maintain the site.</li><li><a class='link-text' href='https://www.rambleofficial.com' target='_blank'>rambleofficial.com</a> - Project Lead over the establishment of a dedicated influencer website with HTML, CSS, and JavaScript.</li><li><a class='link-text' href='http://wecandohardthingspodcast.com' target='_blank'>wecandohardthingspodcast.com</a> - Leveraged a Cornerstone Theme in a WordPress environment to maintain the site.</li><li><a class='link-text' href='https://sofiafranklyn.com' target='_blank'>Sofiafranklyn.com </a> - Performed basic CSS maintenance and updates on the client’s Shopify store.</li>",
+    place: "Audacy - Cadence13",
+    time: "(June, 2021 - May, 2023)",
+    desp: "<li><a class='link-text' href='https://c13features.com' target='_blank'>c13features.com</a> - Constructed the Website for this highly visible, podcast movie concept site with HTML, CSS, and JavaScript.</li> <li><a class='link-text' href='https://shows.cadence13.com' target='_blank'>shows.cadence13.com</a> - Created and updated micro-sites hosting podcasts with Python/React and Jenkins/Docker/AWS Pipeline.</li> <li><a class='link-text' href='https://cadence13.com' target='_blank'>cadence13.com </a> - Updated, maintained, and improved the company’s website, including all site content with WordPress.</li><li><a class='link-text' href='https://pineapple.fm' target='_blank'>pineapple.fm </a> - Utilized Squarespace for the creation and ongoing maintenance of the website.</li><li><a class='link-text' href='https://www.rambleofficial.com' target='_blank'>rambleofficial.com</a> - Managed and updated the dedicated influencer website with HTML, CSS, and JavaScript (now defunct).</li><li><a class='link-text' href='https://sofiafranklyn.com' target='_blank'>Sofiafranklyn.com </a> - Responsible for conducting CSS maintenance and implementing updates on the client’s Shopify store.</li>",
   },
   {
     title: "Associate Instructor",
@@ -22,7 +21,7 @@ const exp = [
     cardImage: "assets/images/experience-page/gat3.jpg",
     place: "Worldwide",
     time: "(2007 - 2020)",
-    desp:"<li>Musician (Guitarist) | Multiple Cruise Lines, International Hotels (Dubai & Abu Dhabi), & Private Clients | 15+ Years</li>",
+    desp: "<li>Musician (Guitarist) | Multiple Cruise Lines, International Hotels (Dubai & Abu Dhabi), & Private Clients | 15+ Years</li>",
   },
 ];
 
@@ -55,7 +54,6 @@ const showCards2 = () => {
   experiencecards.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards2);
-
 
 // Volunteership Cards
 
@@ -118,9 +116,7 @@ const showCards = () => {
 };
 document.addEventListener("DOMContentLoaded", showCards);
 
-
 // Mentorship Card
-
 
 const mentorshipcards = document.querySelector(".mentorship-cards");
 const mentor = [
@@ -141,7 +137,7 @@ const mentor = [
 const showCards3 = () => {
   let output = "";
   mentor.forEach(
-    ({ title, image, time, desp}) =>
+    ({ title, image, time, desp }) =>
       (output += `        
       <div class="column mentorshipCard"> 
       <div class="card card2 mentorshipCardCover">
@@ -167,28 +163,32 @@ document.addEventListener("DOMContentLoaded", showCards3);
 
 // Programs
 var gage = {
-  init: function(){
-      // restart used for demo purposes - change to $('.gage').each(function(i){
-    $('.chart span').css({"width" : "0"}).parent().each(function(i){
-      // Loop through .gage elements
-      $('p', this).html($(this).attr("data-label"));
-      // Set p html value to the data-label attr set in the element
-      var timeout = parseInt(i) * 60 + 1100;
-      // Set a timeout based on the iteration multiplied by 60 (will affect delay between animations) 
-      $('span', this).delay(timeout).animate({"opacity" : "1"}, 0, function(){
-        //Delay  
-        $(this).css({"width" : $(this).parent().attr("data-level") + "%"});
+  init: function () {
+    // restart used for demo purposes - change to $('.gage').each(function(i){
+    $(".chart span")
+      .css({ width: "0" })
+      .parent()
+      .each(function (i) {
+        // Loop through .gage elements
+        $("p", this).html($(this).attr("data-label"));
+        // Set p html value to the data-label attr set in the element
+        var timeout = parseInt(i) * 60 + 1100;
+        // Set a timeout based on the iteration multiplied by 60 (will affect delay between animations)
+        $("span", this)
+          .delay(timeout)
+          .animate({ opacity: "1" }, 0, function () {
+            //Delay
+            $(this).css({ width: $(this).parent().attr("data-level") + "%" });
+          });
       });
-    });
-  }
-}
+  },
+};
 
-$(document).ready(function(){
+$(document).ready(function () {
   // Call gage init function
   gage.init();
-  // Interval used for demo purposes - remove if using  
-  setInterval(function() {
-      gage.init();
+  // Interval used for demo purposes - remove if using
+  setInterval(function () {
+    gage.init();
   }, 5000);
 });
-
