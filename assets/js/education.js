@@ -5,9 +5,44 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
+    title: "Aws Certified Developer <br> <br> ",
+    cardImage: "assets/images/education-page/aws.png",
+    moocLink: "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+  },
+  {
+    title: "ISC2 Certified in Cybersecurity <br> <br> ",
+    cardImage: "assets/images/education-page/Isc2.png",
+    moocLink: "https://www.isc2.org/certifications/cc",
+  },
+  {
+    title: "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert <br> ",
+    cardImage: "assets/images/education-page/udemy.png",
+    moocLink: "https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert",
+  },
+  {
     title: "Aws Certified Solutions Architect <br> <br> ",
     cardImage: "assets/images/education-page/aws.png",
     moocLink: "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+  },
+  {
+    title: "The Modern Javascript Bootcamp Course <br> <br> ",
+    cardImage: "assets/images/education-page/udemy.png",
+    moocLink: "https://www.udemy.com/course/javascript-beginners-complete-tutorial/",
+  },
+  {
+    title: "Google Certified in Cybersecurity <br> <br> ",
+    cardImage: "assets/images/education-page/google-1.png",
+    moocLink: "https://www.coursera.org/professional-certificates/google-it-support?",
+  },
+  {
+    title: "TOTAL: CompTIA A+ Core 1 and 2<br> <br> ",
+    cardImage: "assets/images/education-page/udemy.png",
+    moocLink: "https://www.udemy.com/course/comptia-aplus-core-1/",
+  },
+  {
+    title: "Node.js, Express, MongoDB & More: The Complete Bootcamp 2024 <br> ",
+    cardImage: "assets/images/education-page/udemy.png",
+    moocLink: "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp",
   },
   {
     title: "Docker Mastery: with Kubernetes +Swarm from a Docker Captain <br> ",
