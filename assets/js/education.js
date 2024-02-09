@@ -5,9 +5,16 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
+    title: "CompTIA A+ CE <br> <br> ",
+    cardImage: "assets/images/education-page/a+.png",
+    moocLink:
+      "https://www.comptia.org/certifications/a",
+  },
+  {
     title: "Aws Certified Developer <br> <br> ",
     cardImage: "assets/images/education-page/aws.png",
-    moocLink: "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+    moocLink:
+      "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
   },
   {
     title: "ISC2 Certified in Cybersecurity <br> <br> ",
@@ -17,22 +24,26 @@ const moocscards = [
   {
     title: "The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert <br> ",
     cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert",
+    moocLink:
+      "https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert",
   },
   {
     title: "Aws Certified Solutions Architect <br> <br> ",
     cardImage: "assets/images/education-page/aws.png",
-    moocLink: "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+    moocLink:
+      "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
   },
   {
     title: "The Modern Javascript Bootcamp Course <br> <br> ",
     cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/javascript-beginners-complete-tutorial/",
+    moocLink:
+      "https://www.udemy.com/course/javascript-beginners-complete-tutorial/",
   },
   {
     title: "Google Certified in Cybersecurity <br> <br> ",
     cardImage: "assets/images/education-page/google-1.png",
-    moocLink: "https://www.coursera.org/professional-certificates/google-it-support?",
+    moocLink:
+      "https://www.coursera.org/professional-certificates/google-it-support?",
   },
   {
     title: "TOTAL: CompTIA A+ Core 1 and 2<br> <br> ",
@@ -52,27 +63,32 @@ const moocscards = [
   {
     title: "MATH 1201 - College Algebra <br> <br> ",
     cardImage: "assets/images/education-page/uopeople.png",
-    moocLink: "https://www.uopeople.edu/prepare-for-university/college-algebra-math-1201-learning-materials/",
+    moocLink:
+      "https://www.uopeople.edu/prepare-for-university/college-algebra-math-1201-learning-materials/",
   },
   {
     title: "Learn Photoshop, Web Design & Profitable Freelancing 2022   <br> ",
     cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/learn-photoshop-web-design-profitable-freelancing/",
+    moocLink:
+      "https://www.udemy.com/course/learn-photoshop-web-design-profitable-freelancing/",
   },
   {
     title: "100 Days of Code - Python Bootcamp <br> <br> ",
     cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/100-days-of-code/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Python_v.PROF_la.EN_cc.US_ti.7380&utm_content=deal4584&utm_term=_._ag_78513466559_._ad_532193666528_._kw__._de_c_._dm__._pl__._ti_dsa-774930046209_._li_9004163_._pd__._&matchtype=b&gclid=EAIaIQobChMI6djO89HA9AIVDZyzCh11XA35EAAYASAAEgJ49vD_BwE",
+    moocLink:
+      "https://www.udemy.com/course/100-days-of-code/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Python_v.PROF_la.EN_cc.US_ti.7380&utm_content=deal4584&utm_term=_._ag_78513466559_._ad_532193666528_._kw__._de_c_._dm__._pl__._ti_dsa-774930046209_._li_9004163_._pd__._&matchtype=b&gclid=EAIaIQobChMI6djO89HA9AIVDZyzCh11XA35EAAYASAAEgJ49vD_BwE",
   },
   {
     title: "Aws Certified Cloud Practitioner <br> <br> ",
     cardImage: "assets/images/education-page/aws.png",
-    moocLink: "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+    moocLink:
+      "https://aws.amazon.com/certification/certified-cloud-practitioner/",
   },
   {
     title: "CS 1101 - Programming Fundamentals <br> <br> ",
     cardImage: "assets/images/education-page/uopeople.png",
-    moocLink: "https://www.uopeople.edu/prepare-for-university/programming-fundamentals-java-cs-1101-learning-materials/",
+    moocLink:
+      "https://www.uopeople.edu/prepare-for-university/programming-fundamentals-java-cs-1101-learning-materials/",
   },
   {
     title: "Wordpress for Beginners - Master Wordpress Quickly <br> ",
@@ -82,7 +98,8 @@ const moocscards = [
   {
     title: "Google UX Design Certificate <br> <br> ",
     cardImage: "assets/images/education-page/google-1.png",
-    moocLink: "https://www.coursera.org/professional-certificates/google-ux-design",
+    moocLink:
+      "https://www.coursera.org/professional-certificates/google-ux-design",
   },
   {
     title: "Learn Ethical Hacking From Scratch <br> <br> ",
@@ -92,27 +109,32 @@ const moocscards = [
   {
     title: "Facebook Certified Social Media Marketing Associate ",
     cardImage: "assets/images/education-page/Meta-Logo.png",
-    moocLink: "https://www.facebook.com/business/learn/certification/exams/100-101-exam",
+    moocLink:
+      "https://www.facebook.com/business/learn/certification/exams/100-101-exam",
   },
   {
     title: "Google IT Support Professional <br> <br> ",
     cardImage: "assets/images/education-page/google-1.png",
-    moocLink: "https://www.coursera.org/professional-certificates/google-it-support?",
+    moocLink:
+      "https://www.coursera.org/professional-certificates/google-it-support?",
   },
   {
     title: "Graphic Design For Non-Designers \nUniversity of Colorado",
     cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/specializations/graphic-design-elements-non-designers",
+    moocLink:
+      "https://www.coursera.org/specializations/graphic-design-elements-non-designers",
   },
   {
     title: "WSET Level II in Wine and Spirits <br> <br> ",
     cardImage: "assets/images/education-page/wset.png",
-    moocLink: "https://www.wsetglobal.com/qualifications/wset-level-2-award-in-wines",
+    moocLink:
+      "https://www.wsetglobal.com/qualifications/wset-level-2-award-in-wines",
   },
   {
     title: "Level 3 Teach English As A Foreign Language (TEFL)",
     cardImage: "assets/images/education-page/english.png",
-    moocLink: "https://www.i-to-i.com/teaching-english-as-a-foreign-language.html",
+    moocLink:
+      "https://www.i-to-i.com/teaching-english-as-a-foreign-language.html",
   },
   {
     title: "Photography Basics And Beyond <br>University of Michigan",
@@ -127,17 +149,20 @@ const moocscards = [
   {
     title: "Javascript Data Structures And Algorithms  <br> ",
     cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/",
+    moocLink:
+      "https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/",
   },
   {
     title: "Excel Skills For Business: Essentials <br>Macquarie University",
     cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/excel-essentials?specialization=excel",
+    moocLink:
+      "https://www.coursera.org/learn/excel-essentials?specialization=excel",
   },
   {
     title: "Cert 3 in Hospitality <br> <br> ",
     cardImage: "assets/images/education-page/hospo.jpg",
-    moocLink: "https://smartandskilled.nsw.gov.au/sands/traineeship/SIT30616?meta_l_sand=91054&meta_w_sand=108",
+    moocLink:
+      "https://smartandskilled.nsw.gov.au/sands/traineeship/SIT30616?meta_l_sand=91054&meta_w_sand=108",
   },
   {
     title: "Classical Music <br>Yale University",
@@ -153,56 +178,54 @@ const moocscards = [
     title: "Financial Markets <br>Yale University",
     cardImage: "assets/images/education-page/coursera1.png",
     moocLink: "https://www.coursera.org/learn/financial-markets-global",
-  }
+  },
 ];
 
 const experience = [
   {
-    img: "assets/images/education-page/c1.png"
+    img: "assets/images/education-page/c1.png",
   },
   {
-    img: "assets/images/education-page/c2.jpg"
+    img: "assets/images/education-page/c2.jpg",
   },
   {
-    img: "assets/images/education-page/c3.png"
+    img: "assets/images/education-page/c3.png",
   },
   {
-    img: "assets/images/education-page/c4.png"
+    img: "assets/images/education-page/c4.png",
   },
   {
-    img: "assets/images/education-page/c5.jpg"
+    img: "assets/images/education-page/c5.jpg",
   },
 ];
 
 let currentItem = 0;
 
-const img = document.getElementById('image');
+const img = document.getElementById("image");
 
-const prevBtn = document.querySelector('#prevBtn');
-const nextBtn = document.querySelector('#nextBtn');
+const prevBtn = document.querySelector("#prevBtn");
+const nextBtn = document.querySelector("#nextBtn");
 
-window.addEventListener('DOMContentLoaded', function () {
+window.addEventListener("DOMContentLoaded", function () {
   showExperience();
-})
+});
 
 function showExperience() {
   setInterval(function () {
     if (currentItem === experience.length) {
       currentItem = 0;
     }
-      const item = experience[currentItem];
-      img.src = item.img;
-      currentItem++;
-
-    },
-    3000);
+    const item = experience[currentItem];
+    img.src = item.img;
+    currentItem++;
+  }, 3000);
 }
 
 const showCards = () => {
   let output = "";
   moocscards.forEach(
     ({ title, cardImage, moocLink }) =>
-    (output += `        
+      (output += `        
         <div class="col-6 col-md-3 col-sm-4 column" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600" >  
             <div class="card mb-3 mx-auto">
                <div class="content">
@@ -222,7 +245,6 @@ const showCards = () => {
   moocs.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards);
-
 
 /* Badges*/
 
@@ -249,7 +271,7 @@ const showCards1 = () => {
   let output = "";
   badgesection.forEach(
     ({ title, image, description }) =>
-    (output += `       
+      (output += `       
       <div class="col-lg-4 col-md-6 p-2" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600"> 
         <img class="img-fluid d-block mb-3 mx-auto hvr-grow" src="${image}" alt="Card image cap" width="200">
           <div class="text-center font-weight-bolder" style="font-size: 1.3em;">${title}</div>
@@ -260,7 +282,6 @@ const showCards1 = () => {
 };
 document.addEventListener("DOMContentLoaded", showCards1);
 
-
 /* Timeline Section*/
 
 const timeline = document.querySelector(".timeline");
@@ -268,29 +289,37 @@ const timelinesection = [
   {
     heading: "Massachusetts Institute of Technology",
     image: "./assets/images/education-page/timeline-1.svg",
-    subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
-    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
+    subheading:
+      "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
+    description:
+      "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
   },
 
   {
     heading: "Massachusetts Institute of Technology",
     image: "./assets/images/education-page/timeline-1.svg",
-    subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
-    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
+    subheading:
+      "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
+    description:
+      "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
   },
 
   {
     heading: "Massachusetts Institute of Technology",
     image: "./assets/images/education-page/timeline-1.svg",
-    subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
-    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
+    subheading:
+      "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
+    description:
+      "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
   },
 
   {
     heading: "Massachusetts Institute of Technology",
     image: "./assets/images/education-page/timeline-1.svg",
-    subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
-    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
+    subheading:
+      "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
+    description:
+      "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
   },
 ];
 
@@ -298,7 +327,7 @@ const showCards2 = () => {
   let output = "";
   timelinesection.forEach(
     ({ heading, image, subheading, description }) =>
-    (output += `       
+      (output += `       
       <div class="timeline" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600">
       <div class="timeline-content">
         <h6 class="center-align font-weight-bolder pt-1">${heading}</h6>
