@@ -6,7 +6,7 @@ const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
     title: "CompTIA A+ CE <br> <br> ",
-    cardImage: "assets/images/education-page/a+.png",
+    cardImage: "assets/images/education-page/A+.png",
     moocLink:
       "https://www.comptia.org/certifications/a",
   },
@@ -18,7 +18,7 @@ const moocscards = [
   },
   {
     title: "ISC2 Certified in Cybersecurity <br> <br> ",
-    cardImage: "assets/images/education-page/Isc2.png",
+    cardImage: "assets/images/education-page/isc2.png",
     moocLink: "https://www.isc2.org/certifications/cc",
   },
   {
