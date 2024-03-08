@@ -5,6 +5,12 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
+    title: "CompTIA Security+ CE <br> <br> ",
+    cardImage: "assets/images/education-page/securityPlus.png",
+    moocLink:
+      "https://www.comptia.org/certifications/security",
+  },
+  {
     title: "CompTIA A+ CE <br> <br> ",
     cardImage: "assets/images/education-page/A+.png",
     moocLink:
