@@ -1,29 +1,66 @@
 //  Work experience cards
 
 const experiencecards = document.querySelector(".experience-cards");
+// const exp = [
+//   {
+//     title: "Web Developer",
+//     cardImage: "assets/images/experience-page/c13.jpg",
+//     place: "Audacy - Cadence13",
+//     time: "(June, 2021 - May, 2023)",
+//     desp: "<li><a class='link-text' href='https://c13features.com' target='_blank'>c13features.com</a> - Constructed the Website for this highly visible, podcast movie concept site with HTML, CSS, and JavaScript.</li> <li><a class='link-text' href='https://shows.cadence13.com' target='_blank'>shows.cadence13.com</a> - Created and updated micro-sites hosting podcasts with Python/React and Jenkins/Docker/AWS Pipeline.</li> <li><a class='link-text' href='https://cadence13.com' target='_blank'>cadence13.com </a> - Updated, maintained, and improved the company’s website, including all site content with WordPress.</li><li><a class='link-text' href='https://pineapple.fm' target='_blank'>pineapple.fm </a> - Utilized Squarespace for the creation and ongoing maintenance of the website.</li><li><a class='link-text' href='https://www.rambleofficial.com' target='_blank'>rambleofficial.com</a> - Managed and updated the dedicated influencer website with HTML, CSS, and JavaScript (now defunct).</li><li><a class='link-text' href='https://sofiafranklyn.com' target='_blank'>Sofiafranklyn.com </a> - Responsible for conducting CSS maintenance and implementing updates on the client’s Shopify store.</li>",
+//   },
+//   {
+//     title: "Associate Instructor",
+//     cardImage: "assets/images/experience-page/thrive.jpg",
+//     place: "Thrive DX",
+//     time: "(May, 2022 - present)",
+//     desp: "<b>Multiple Locations (NYU, University at Buffalo, North Carolina State University, NJIT, and Old Dominion University)</b><li>Facilitate co-teaching programs as part of a software development bootcamp for American universities.</li><li>Serve as a subject matter expert for website development tools and technologies as well as Agile methodologies/frameworks.</li><li>Promote a professional learning culture grounded in adult learning theory and cutting-edge web development instruction.</li><li>Assist the Lead Instructor with managing classroom learning and the creation of teaching materials.</li><li>Provide instruction, guidance, and advisement to students throughout the Software Development Bootcamp.</li><li>Create and deliver student assessments, testing, and analysis of progress performance.</li>",
+//   },
+//   {
+//     title: "Musician",
+//     cardImage: "assets/images/experience-page/gat3.jpg",
+//     place: "Worldwide",
+//     time: "(2007 - present)",
+//     desp: "<li>Musician (Guitarist) | Multiple Cruise Lines, International Hotels (Dubai & Abu Dhabi), & Private Clients | 15+ Years</li>",
+//   },
+// ];
+
 const exp = [
   {
     title: "Web Developer",
     cardImage: "assets/images/experience-page/c13.jpg",
-    place: "Audacy - Cadence13",
-    time: "(June, 2021 - May, 2023)",
-    desp: "<li><a class='link-text' href='https://c13features.com' target='_blank'>c13features.com</a> - Constructed the Website for this highly visible, podcast movie concept site with HTML, CSS, and JavaScript.</li> <li><a class='link-text' href='https://shows.cadence13.com' target='_blank'>shows.cadence13.com</a> - Created and updated micro-sites hosting podcasts with Python/React and Jenkins/Docker/AWS Pipeline.</li> <li><a class='link-text' href='https://cadence13.com' target='_blank'>cadence13.com </a> - Updated, maintained, and improved the company’s website, including all site content with WordPress.</li><li><a class='link-text' href='https://pineapple.fm' target='_blank'>pineapple.fm </a> - Utilized Squarespace for the creation and ongoing maintenance of the website.</li><li><a class='link-text' href='https://www.rambleofficial.com' target='_blank'>rambleofficial.com</a> - Managed and updated the dedicated influencer website with HTML, CSS, and JavaScript (now defunct).</li><li><a class='link-text' href='https://sofiafranklyn.com' target='_blank'>Sofiafranklyn.com </a> - Responsible for conducting CSS maintenance and implementing updates on the client’s Shopify store.</li>",
+    place: "Audacy",
+    time: "(Jun 2021 - Jun 2023)",
+    about: "Audacy is a leading multi-platform audio content and entertainment company. It is the second largest radio company in the United States, owning over 220 radio stations across 47 media markets.",
+    desp: "<li>Managed and developed websites for a diverse portfolio of high-profile clients, including notable podcast collaborations (Steven A. Smith, Glennon Doyle, Demi Lovato, Ellen Pompeo, Goop, Kevin Durant), major media projects (Nike, Hulu, Netflix, HBO, The New York Times), dedicated influencer platforms (formerly Ramble Media featuring Emma Chamberlain and the D'Amelio Sisters), and individual brand sites (Sofia Franklyn, We Can Do Hard Things Podcast).</li><li>Contributed to digital initiatives across multiple Audacy brands, including Cadence13, Pineapple Street Studios, and Ramble.</li><li>Spearheaded the development of C13features.com, a high-visibility podcast movie concept website, overseeing the entire process from concept to deployment.</li><li>Created and maintained listener-facing podcast homepages and feature sites for various high-profile shows.</li><li>Implemented critical updates and redesigns for major podcast collaborations and media projects.</li>",
   },
   {
-    title: "Associate Instructor",
+    title: "Teaching Assistant",
     cardImage: "assets/images/experience-page/thrive.jpg",
-    place: "Thrive DX",
-    time: "(May, 2022 - present)",
-    desp: "<b>Multiple Locations (NYU, University at Buffalo, North Carolina State University, NJIT, and Old Dominion University)</b><li>Facilitate co-teaching programs as part of a software development bootcamp for American universities.</li><li>Serve as a subject matter expert for website development tools and technologies as well as Agile methodologies/frameworks.</li><li>Promote a professional learning culture grounded in adult learning theory and cutting-edge web development instruction.</li><li>Assist the Lead Instructor with managing classroom learning and the creation of teaching materials.</li><li>Provide instruction, guidance, and advisement to students throughout the Software Development Bootcamp.</li><li>Create and deliver student assessments, testing, and analysis of progress performance.</li>",
+    place: "ThriveDX",
+    time: "(May 2022 - Present)",
+    about: "ThriveDX is a leading provider of digital skills training, focusing on preparing students for successful careers in technology through hands-on learning experiences and real-world projects in web development and cybersecurity.",
+    desp: "<li>Co-teach software development bootcamp programs for leading American universities, including New York University, North Carolina State University, University at Buffalo, New Jersey Institute of Technology, Old Dominion University, and the University of Nevada, Las Vegas.</li><li>Contribute expertise to educational programs across multiple university partnerships as an independent contractor.</li><li>Provide comprehensive instruction on a wide range of topics including HTML and Web Accessibility, CSS and CSS Frameworks, User Experience and User Interface Design, JavaScript and Front-End Web Development, Back-End Development and APIs, React and Redux, SQL and Data Modelling, Cybersecurity, Python, and Cloud Computing.</li><li>Consistently receive positive feedback from students and lead instructors for effectiveness in explaining complex concepts and fostering a positive learning environment.</li>",
+  },
+  {
+    title: "Web Developer",
+    cardImage: "assets/images/experience-page/2.jpg",
+    place: "Self-Employed",
+    time: "(Jan 2021 - Present)",
+    about: "As a freelance web developer, I provide comprehensive web development services to a diverse international client base, including political campaigns, e-commerce businesses, local shops, and artists.",
+    desp: "<li>Develop and manage websites for a variety of clients, including political campaigns, e-commerce businesses, local shops, and artists.</li><li>Collaborate closely with clients to understand their unique needs and deliver tailored web solutions that align with their brand and business goals.</li><li>Implement e-commerce functionality and integrate payment processing systems for online businesses.</li><li>Provide additional creative services such as audio editing with Logic Pro and video editing using Final Cut Pro to offer comprehensive digital solutions.</li>",
   },
   {
     title: "Musician",
     cardImage: "assets/images/experience-page/gat3.jpg",
-    place: "Worldwide",
-    time: "(2007 - 2020)",
-    desp: "<li>Musician (Guitarist) | Multiple Cruise Lines, International Hotels (Dubai & Abu Dhabi), & Private Clients | 15+ Years</li>",
+    place: "Multiple Venues",
+    time: "(Jan 2009 - Present)",
+    about: "As a professional musician, I have performed at various international venues and provided private music instruction across multiple countries.",
+    desp: "<li>Perform as a guitarist for major cruise lines such as Holland America, Carnival, Seabourn, Crystal, Royal Caribbean, and Princess, securing recurring engagements.</li><li>Entertain guests at international hotels in Dubai & Abu Dhabi and at private events worldwide.</li><li>Provide private music instruction to students in New Zealand, Australia, the United Kingdom, and the United States, adapting teaching methods to diverse cultural contexts.</li><li>Collaborate with various artists and adapt to different musical styles, enhancing versatility as a performer.</li>",
   },
 ];
+
+
 
 const showCards2 = () => {
   let output = "";
