@@ -5,8 +5,26 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
+    title: "COMPSCI 718 - Programmming for Industry<br> <br> ",
+    cardImage: "assets/images/education-page/Auckland-papers.png",
+    moocLink:
+      "https://www.online.auckland.ac.nz/postgraduate-programmes/science/postgraduate-certificate-in-information-technology/",
+  },
+  {
+    title: "COMPSCI 719 - Programmming with Web Technologies<br> <br> ",
+    cardImage: "assets/images/education-page/Auckland-papers.png",
+    moocLink:
+      "https://www.online.auckland.ac.nz/postgraduate-programmes/science/postgraduate-certificate-in-information-technology/",
+  },
+  {
     title: "CompTIA Security+ CE <br> <br> ",
     cardImage: "assets/images/education-page/securityPlus.png",
+    moocLink:
+      "https://www.comptia.org/certifications/network",
+  },
+  {
+    title: "CompTIA Network+ CE <br> <br> ",
+    cardImage: "assets/images/education-page/Network+.png",
     moocLink:
       "https://www.comptia.org/certifications/security",
   },
