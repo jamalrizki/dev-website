@@ -76,14 +76,14 @@ const personal = [
   {
     title: "Photography Website",
     cardImage: "assets/images/project-page/static/photography-static.jpg",
-    gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/photography-gif.gif",
-    Previewlink: "https://sad-neumann-cd33a2.netlify.app/gallery2",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/photography.m4v",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/photography.m4v",
   },
   {
     title: "Music Website",
     cardImage: "assets/images/project-page/static/music-static.jpg",
-    gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/music-gif.gif",
-    Previewlink: "https://stoic-colden-5af388.netlify.app",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/music.m4v",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/music.m4v",
   },
   {
     title: "BLOG",
@@ -106,8 +106,8 @@ const personal = [
   {
     title: "Netflix Clone",
     cardImage: "assets/images/project-page/static/netflix-static.jpg",
-    gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/netflix-gif.gif",
-    Previewlink: "https://netflix-clone-d4b36.web.app",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/netflix.m4v",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/netflix.m4v",
   },
   {
     title: "Apple Clone",
