@@ -6,26 +6,26 @@ const projects = [
   {
     title: "C13Features A Podcast Movie Studio",
     cardImage: "assets/images/project-page/static/features-static.jpg",
-    gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/features-gif.gif",
-    Previewlink: "https://c13features.com",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/c13-features.m4v",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/c13-features.m4v",
   },
   {
     title: "Cadence 13 Podcast Showhub",
     cardImage: "assets/images/project-page/static/showhub-static.jpg",
     gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/showhub-gif.gif",
-    Previewlink: "https://shows.cadence13.com",
+    Previewlink: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/showhub-gif.gif",
   },
   {
     title: "Cadence13.com",
     cardImage: "assets/images/project-page/static/cadence-static.jpg",
-    gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/cadence-gif.gif",
-    Previewlink: "https://cadence13.com",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/cadence-vid.m4v",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/cadence-vid.m4v",
   },
   {
     title: "Pineapple Street Studios",
     cardImage: "assets/images/project-page/static/pineapple-static.jpg",
-    gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/pineapple-gif.gif",
-    Previewlink: "https://www.pineapple.fm",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/pineapple.m4v",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/pineapple.m4v",
   },
   {
     title: "Sofia Franklyn",
@@ -42,8 +42,8 @@ const projects = [
   {
     title: "Email Template",
     cardImage: "assets/images/project-page/static/email-static.jpg",
-    gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/email-gif.gif",
-    Previewlink: "https://jamalrizki.github.io/email-template/",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/email.mp4",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/email.mp4",
   },
   {
     title: "Fly On The Wall Podcast - Email Marketing",
@@ -60,8 +60,8 @@ const projects = [
   {
     title: "Player",
     cardImage: "assets/images/project-page/static/player-static.jpg",
-    gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/player-gif.gif",
-    Previewlink: "https://shows.cadence13.com/player/the-sunshine-place",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/podcast-player.m4v",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/podcast-player.m4v",
   },
   {
     title: "We Can Do Hard Things Podcast - Glennon Doyle",
@@ -84,6 +84,24 @@ const personal = [
     cardImage: "assets/images/project-page/static/music-static.jpg",
     gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/music-gif.gif",
     Previewlink: "https://stoic-colden-5af388.netlify.app",
+  },
+  {
+    title: "BLOG",
+    cardImage: "assets/images/project-page/static/blog.jpg",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/travel-blog.m4v",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/travel-blog.m4v",
+  },
+  {
+    title: "Java-Shapes",
+    cardImage: "assets/images/project-page/static/java-shapes.jpg",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/java-shapes.m4v",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/java-shapes.m4v",
+  },
+  {
+    title: "Bulls and cows",
+    cardImage: "assets/images/project-page/static/Java-ai.jpg",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/bullsandcows-ai.m4v",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/bullsandcows-ai.m4v",
   },
   {
     title: "Netflix Clone",
@@ -109,12 +127,7 @@ const personal = [
     gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/tesla-gif.gif",
     Previewlink: "https://tesla-clone-d09a2.web.app",
   },
-  {
-    title: "Medium",
-    cardImage: "assets/images/project-page/static/medium-static.jpg",
-    gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/medium-gif.gif",
-    Previewlink: "https://fluffy-pasca-3faeee.netlify.app/post/my-first-post",
-  },
+  
   {
     title: "Car Company Template",
     cardImage: "assets/images/project-page/static/car-static.jpg",
@@ -122,23 +135,18 @@ const personal = [
     Previewlink: "https://jamalrizki.github.io/car-website/",
   },
   {
+    title: "Pokemon game",
+    cardImage: "assets/images/project-page/static/pokemon.jpg",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/pokemon.m4v",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/pokemon.m4v",
+  },
+  {
     title: "D3 Emissions",
     cardImage: "assets/images/project-page/static/d3-static.jpg",
     gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/d3-gif.gif",
     Previewlink: "https://jamalrizki.github.io/d3-emissions/",
   },
-  {
-    title: "Expense Tracker",
-    cardImage: "assets/images/project-page/static/expense-static.jpg",
-    gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/expense-gif.gif",
-    Previewlink: "https://expense-tracking.netlify.app",
-  },
-  {
-    title: "Airbnb clone",
-    cardImage: "assets/images/project-page/static/airbnb-static.jpg",
-    gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/airbnb-gif.gif",
-    Previewlink: "https://air-bb-clone.web.app",
-  },
+  
 ];
 
 const showCards = () => {
