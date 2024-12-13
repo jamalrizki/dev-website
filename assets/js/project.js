@@ -1,5 +1,6 @@
 const projectcards = document.querySelector(".projectcards");
 const projectcardspersonal = document.querySelector(".projectcardspersonal");
+const appcards = document.querySelector(".appcards");
 
 // Array of objects for professional projects
 const projects = [
@@ -116,12 +117,6 @@ const personal = [
     Previewlink: "https://jamalrizki.github.io/apple-clone",
   },
   {
-    title: "Cocktail App - React Native",
-    cardImage: "assets/images/project-page/static/cocktail-static.jpg",
-    gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/cocktail-gif.gif",
-    Previewlink: "https://youtu.be/kk5hkRLbeP4",
-  },
-  {
     title: "Tesla Clone",
     cardImage: "assets/images/project-page/static/tesla-static.jpg",
     gifUrl: "https://d2wrb4d037bwvq.cloudfront.net/Gifs/tesla-gif.gif",
@@ -148,6 +143,15 @@ const personal = [
   },
   
 ];
+
+const apps = [
+  {
+    title: "Zest Cocktails",
+    cardImage: "assets/images/project-page/static/appImg.png",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/app-HD.mov",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/app-HD.mov",
+  }
+]
 
 const showCards = () => {
   let output = "";
@@ -182,10 +186,27 @@ const showCards1 = () => {
   projectcardspersonal.innerHTML = output;
 };
 
+const showCards2 = () => {
+  let output = "";
+  apps.forEach(({ title, cardImage, gifUrl }) => {
+    output += `
+      <div class="column skill-card card">
+        <a href="${gifUrl}" target="_blank" rel="noopener noreferrer">
+          <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat">
+            <div class="header"></div>
+          </div>
+        </a>
+      </div>`;
+  });
+
+ appcards.innerHTML = output;
+};
+
 // Call both functions to display the project cards
 document.addEventListener('DOMContentLoaded', () => {
   showCards();
   showCards1();
+  showCards2();
 });
 
 
