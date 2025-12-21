@@ -5,6 +5,24 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
+    title: "CompTIA SecurityX (CASP+)CE <br> <br> ",
+    cardImage: "assets/images/education-page/securityX.png",
+    moocLink:
+      "https://www.comptia.org/en-us/certifications/securityx/",
+  },
+  {
+    title: "CompTIA CySA+ CE <br> <br> ",
+    cardImage: "assets/images/education-page/CySA.png",
+    moocLink:
+      "https://www.comptia.org/en-us/certifications/cybersecurity-analyst/",
+  },
+  {
+    title: "CompTIA PenTest+ CE <br> <br> ",
+    cardImage: "assets/images/education-page/Pentest.png",
+    moocLink:
+      "https://www.comptia.org/en-us/certifications/pentest/",
+  },
+  {
     title: "COMPSCI 718 - Programmming for Industry<br> <br> ",
     cardImage: "assets/images/education-page/Auckland-papers.png",
     moocLink:

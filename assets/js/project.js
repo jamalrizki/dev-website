@@ -150,6 +150,12 @@ const apps = [
     cardImage: "assets/images/project-page/static/appImg.png",
     gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/app-HD.mov",
     Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/app-HD.mov",
+  }, 
+  {
+    title: "Pure Intervals",
+    cardImage: "assets/images/project-page/static/pureIntervals-web.png",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/PureIntervals-HD+720p.mov",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/vids/PureIntervals-HD+720p.mov",
   }
 ]
 

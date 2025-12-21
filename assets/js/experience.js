@@ -38,9 +38,21 @@ const exp = [
     title: "Teaching Assistant",
     cardImage: "assets/images/experience-page/thrive.jpg",
     place: "ThriveDX",
-    time: "(May 2022 - Present)",
+    time: "(May 2022 - Dec 2024)",
     about: "ThriveDX is a leading provider of digital skills training, focusing on preparing students for successful careers in technology through hands-on learning experiences and real-world projects in web development and cybersecurity.",
     desp: "<li>Co-teach software development bootcamp programs for leading American universities, including New York University, North Carolina State University, University at Buffalo, New Jersey Institute of Technology, Old Dominion University, and the University of Nevada, Las Vegas.</li><li>Contribute expertise to educational programs across multiple university partnerships as an independent contractor.</li><li>Provide comprehensive instruction on a wide range of topics including HTML and Web Accessibility, CSS and CSS Frameworks, User Experience and User Interface Design, JavaScript and Front-End Web Development, Back-End Development and APIs, React and Redux, SQL and Data Modelling, Cybersecurity, Python, and Cloud Computing.</li><li>Consistently receive positive feedback from students and lead instructors for effectiveness in explaining complex concepts and fostering a positive learning environment.</li>",
+  },
+  {
+    title: "IT Support Specialist (Tier 1/2)",
+    cardImage: "assets/images/experience-page/amazon.png",
+    place: "Amazon (Whole Foods Market)",
+    time: "(Jun 2025 – Present)",
+    about: " is a leading natural and organic grocery retailer and a subsidiary of , operating at enterprise scale with strict security, compliance, and uptime requirements.",
+    desp: "<li>Provide Tier 1/2 technical support for team members across retail and corporate environments, resolving hardware, software, and access-related issues.</li>\
+  <li>Support Microsoft 365, Azure AD, endpoint devices, and identity/access management in a large enterprise environment.</li>\
+  <li>Troubleshoot Windows and macOS systems, peripherals, and network connectivity issues with a focus on minimal downtime.</li>\
+  <li>Escalate incidents appropriately while documenting tickets clearly to meet SLA and compliance standards.</li>\
+  <li>Collaborate with internal IT and security teams to support onboarding, offboarding, and system access requests.</li>"
   },
   {
     title: "Web Developer",
