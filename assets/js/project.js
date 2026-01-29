@@ -1,6 +1,8 @@
 const projectcards = document.querySelector(".projectcards");
 const projectcardspersonal = document.querySelector(".projectcardspersonal");
 const appcards = document.querySelector(".appcards");
+const projectcardscyber = document.querySelector(".projectcardscyber");
+
 
 // Array of objects for professional projects
 const projects = [
@@ -159,6 +161,46 @@ const apps = [
   }
 ]
 
+const cyber = [
+  {
+    title: "Azure Cloud Security Implementation",
+    cardImage: "assets/images/project-page/static/Azure_cloud.jpg",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/Pdf/Azure+Cloud+Security+Implementation.pdf",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/Pdf/Azure+Cloud+Security+Implementation.pdf",
+  }, 
+  {
+    title: "Secure Network Design & Infrastructure",
+    cardImage: "assets/images/project-page/static/Secure_Network_Design_Infrastructure.jpg",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/Pdf/Secure+Network+Design+%26+Infrastructure.pdf",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/Pdf/Secure+Network+Design+%26+Infrastructure.pdf",
+  },
+  {
+    title: "Penetration Test Analysis",
+    cardImage: "assets/images/project-page/static/Penetration_Test_Analysis.jpg",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/Pdf/Penetration+Test+Analysis.pdf",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/Pdf/Penetration+Test+Analysis.pdf",
+  },
+  {
+    title: "Governance, Risk, and Compliance (GRC)",
+    cardImage: "assets/images/project-page/static/Governance_Risk_andCompliance.jpg",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/Pdf/Governance%2C+Risk%2C+and+Compliance+(GRC).pdf",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/Pdf/Governance%2C+Risk%2C+and+Compliance+(GRC).pdf",
+  },
+  {
+    title: "Cybersecurity Management Plan",
+    cardImage: "assets/images/project-page/static/Cybersecurity_Management_Plan.jpg",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/Pdf/Cybersecurity+Management+Plan.pdf",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/Pdf/Cybersecurity+Management+Plan.pdf",
+  },
+  {
+    title: "Security Solution & Implementation",
+    cardImage: "assets/images/project-page/static/Security_Solution_Implementation.jpg",
+    gifUrl: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/Pdf/Security+Solution+%26+Implementation.pdf",
+    Previewlink: "https://jamal-dev-website.s3.us-east-1.amazonaws.com/Pdf/Security+Solution+%26+Implementation.pdf",
+  }
+
+]
+
 const showCards = () => {
   let output = "";
   projects.forEach(({ title, cardImage, gifUrl }) => {
@@ -208,11 +250,28 @@ const showCards2 = () => {
  appcards.innerHTML = output;
 };
 
+const showCards3 = () => {
+  let output = "";
+  cyber.forEach(({ title, cardImage, gifUrl }) => {
+    output += `
+      <div class="column skill-card card">
+        <a href="${gifUrl}" target="_blank" rel="noopener noreferrer">
+          <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat">
+            <div class="header"></div>
+          </div>
+        </a>
+      </div>`;
+  });
+
+  projectcardscyber.innerHTML = output;
+};
+
 // Call both functions to display the project cards
 document.addEventListener('DOMContentLoaded', () => {
   showCards();
   showCards1();
   showCards2();
+  showCards3();
 });
 
 
