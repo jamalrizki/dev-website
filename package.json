@@ -1,19 +1,31 @@
 {
     "name": "website",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Jamal Rizki Website",
-    "main": "index.html",
+    "private": true,
+    "type": "module",
     "scripts": {
-        "build": "npm run clean ",
-        "clean": "rimraf dist"
+        "dev": "vite dev",
+        "build": "vite build",
+        "preview": "vite preview"
     },
-    "author": "",
+    "author": "Jamal Rizki",
     "license": "ISC",
     "devDependencies": {
-        "copyfiles": "^2.2.0",
-        "onchange": "^7.0.0",
-        "parallelshell": "3.0.1",
-        "rimraf": "^3.0.2"
-        
+        "@sveltejs/adapter-static": "^3.0.0",
+        "@sveltejs/kit": "^2.0.0",
+        "@sveltejs/vite-plugin-svelte": "^5.0.0",
+        "bootstrap": "^4.6.2",
+        "postcss-prefix-selector": "^2.1.0",
+        "puppeteer-core": "^24.43.1",
+        "sass": "^1.99.0",
+        "sharp": "^0.35.1",
+        "svelte": "^5.0.0",
+        "svgo": "^4.0.1",
+        "vite": "^6.0.0"
+    },
+    "dependencies": {
+        "animejs": "^3.2.2",
+        "aos": "^2.3.4"
     }
 }
