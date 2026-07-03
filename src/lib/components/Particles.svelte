@@ -35,9 +35,14 @@
 
 		return () => {
 			destroyed = true;
+			// Not destroypJS(): it sets window.pJSDom = null unconditionally, which
+			// breaks every other still-mounted instance (e.g. the footer's) and any
+			// future remount. Just stop this instance's own draw loop and drop its
+			// bookkeeping entry; Svelte removes the container (and its canvas) from
+			// the DOM on its own.
 			const idx = window.pJSDom?.findIndex((p) => p.pJS.canvas.el.closest(`#${id}`));
 			if (idx !== undefined && idx !== -1) {
-				window.pJSDom[idx].pJS.fn.vendors.destroypJS();
+				cancelAnimationFrame(window.pJSDom[idx].pJS.fn.drawAnimFrame);
 				window.pJSDom.splice(idx, 1);
 			}
 		};

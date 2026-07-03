@@ -35,14 +35,18 @@
 	let isError = $derived(!!$page.error);
 	let pageClass = $derived(isError ? 'notfound' : (routeClasses[pathname] ?? 'notfound'));
 
-	// Smooth cross-fade between pages (View Transitions API; no-op where unsupported)
+	// Smooth cross-fade between pages (View Transitions API; no-op where unsupported).
+	// Navigating again before a transition settles aborts the previous one with a
+	// benign InvalidStateError; swallow it so it doesn't surface as an uncaught error.
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
 		return new Promise((resolve) => {
-			document.startViewTransition(async () => {
+			const transition = document.startViewTransition(async () => {
 				resolve();
 				await navigation.complete;
 			});
+			transition.ready.catch(() => {});
+			transition.finished.catch(() => {});
 		});
 	});
 
