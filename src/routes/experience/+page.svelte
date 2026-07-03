@@ -124,7 +124,7 @@
 				</p>
 				<div class="skill-chips">
 					{#each group.skills as skill, s}
-						<span class="skill-chip" style="--delay: {g * 120 + s * 45}ms">{skill}</span>
+						<span class="skill-chip" >{skill}</span>
 					{/each}
 				</div>
 			</div>

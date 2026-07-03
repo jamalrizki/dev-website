@@ -8,7 +8,7 @@
 	<div class="container p-4">
 		<div class="row">
 			<div class="col-12 mb-4 mb-md-0 justify-content-center">
-				<p class="tag">"Time stays long enough for anyone who will use it"</p>
+				<p class="tag" style="font-style: italic;">"Time stays long enough for anyone who will use it"</p>
 				<div class="rounded-social-buttons tag">
 					<a class="social-button linkedin" href="https://www.linkedin.com/in/jamal-rizki-66598777" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
 						<svg class="social-icon-footer" viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true">

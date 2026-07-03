@@ -43,7 +43,7 @@
 		<div class="contact-left">
 			<h1>Contact</h1>
 			<p class="contact-lead">
-				Feel free to get in touch — for freelance web work, security roles, or just to talk shop.
+				Feel free to get in touch.
 			</p>
 
 			<a class="contact-row" href="mailto:hello@jrizki.com">

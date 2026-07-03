@@ -18,7 +18,7 @@ export const exp = [
     	time: '(May 2026 - Jun 2026)',
     	about:
         '2K is a leading global video game publisher, running 24/7 live-service infrastructure that keeps its titles online for a worldwide player base of millions.',
-    	desp: "<li>Monitored the health and performance of the full 2K catalog — including NBA 2K, WWE 2K, BioShock, Borderlands, Civilization, Mafia, and PGA Tour 2K — to maintain uptime for a worldwide player base.</li><li>Maintained global infrastructure across on-premise and public cloud platforms.</li><li>Monitored, troubleshot, and resolved issues across physical and virtual infrastructure and services.</li><li>Provisioned, deployed, configured, and decommissioned virtual machines and servers throughout their lifecycle.</li><li>Administered Windows and Linux servers in live production environments.</li><li>Communicated incident status and updates to studio teams and stakeholders throughout the incident lifecycle.</li><li>Triaged and resolved technical service requests and ticket queues to keep incidents moving toward resolution.</li>"
+    	desp: "<li>Monitored the health and performance of the full 2K catalog — including NBA 2K, WWE 2K, BioShock, Borderlands, Civilization, Mafia, and PGA Tour 2K — to maintain uptime for a worldwide player base.</li><li>Maintained global infrastructure across on-premise and public cloud platforms.</li><li>Monitored, troubleshot, and resolved issues across physical and virtual infrastructure and services.</li><li>Provisioned, deployed, configured, and decommissioned virtual machines and servers throughout their lifecycle.</li><li>Administered Windows and Linux servers in live production environments.</li><li>Communicated incident status and updates to studio teams and stakeholders throughout the incident lifecycle.</li>"
 	},
 	{
 		title: 'Web Developer',
@@ -30,6 +30,16 @@ export const exp = [
 			'Audacy is a leading multi-platform audio content and entertainment company. It is the second largest radio company in the United States, owning over 220 radio stations across 47 media markets.',
 		desp: "<li>Managed and developed websites for a diverse portfolio of high-profile clients, including notable podcast collaborations (Steven A. Smith, Glennon Doyle, Demi Lovato, Ellen Pompeo, Goop, Kevin Durant), major media projects (Nike, Hulu, Netflix, HBO, The New York Times), dedicated influencer platforms (formerly Ramble Media featuring Emma Chamberlain and the D'Amelio Sisters), and individual brand sites (Sofia Franklyn, We Can Do Hard Things Podcast).</li><li>Contributed to digital initiatives across multiple Audacy brands, including Cadence13, Pineapple Street Studios, and Ramble.</li><li>Spearheaded the development of C13features.com, a high-visibility podcast movie concept website, overseeing the entire process from concept to deployment.</li><li>Created and maintained listener-facing podcast homepages and feature sites for various high-profile shows.</li><li>Implemented critical updates and redesigns for major podcast collaborations and media projects.</li>"
 	},
+    {
+		title: 'IT Support Specialist (Tier 1/2)',
+		cardImage: '/assets/images/experience-page/amazon.png',
+		bg: '#ffffff',
+		place: 'Amazon (Whole Foods Market)',
+		time: '(Jun 2025 – Present)',
+		about:
+			'Whole Foods Market is a leading natural and organic grocery retailer and an Amazon subsidiary, operating at enterprise scale with strict security, compliance, and uptime requirements.',
+		desp: '<li>Provide Tier 1/2 technical support for team members across retail and corporate environments, resolving hardware, software, and access-related issues.</li><li>Support Microsoft 365, Azure AD, endpoint devices, and identity/access management in a large enterprise environment.</li><li>Troubleshoot Windows and macOS systems, peripherals, and network connectivity issues with a focus on minimal downtime.</li><li>Escalate incidents appropriately while documenting tickets clearly to meet SLA and compliance standards.</li><li>Collaborate with internal IT and security teams to support onboarding, offboarding, and system access requests.</li>'
+	},
 	{
 		title: 'Teaching Assistant',
 		cardImage: '/assets/images/experience-page/thrive.webp',
@@ -39,16 +49,6 @@ export const exp = [
 		about:
 			'ThriveDX is a leading provider of digital skills training, focusing on preparing students for successful careers in technology through hands-on learning experiences and real-world projects in web development and cybersecurity.',
 		desp: '<li>Co-teach software development bootcamp programs for leading American universities, including New York University, North Carolina State University, University at Buffalo, New Jersey Institute of Technology, Old Dominion University, and the University of Nevada, Las Vegas.</li><li>Contribute expertise to educational programs across multiple university partnerships as an independent contractor.</li><li>Provide comprehensive instruction on a wide range of topics including HTML and Web Accessibility, CSS and CSS Frameworks, User Experience and User Interface Design, JavaScript and Front-End Web Development, Back-End Development and APIs, React and Redux, SQL and Data Modelling, Cybersecurity, Python, and Cloud Computing.</li><li>Consistently receive positive feedback from students and lead instructors for effectiveness in explaining complex concepts and fostering a positive learning environment.</li>'
-	},
-	{
-		title: 'IT Support Specialist (Tier 1/2)',
-		cardImage: '/assets/images/experience-page/amazon.png',
-		bg: '#ffffff',
-		place: 'Amazon (Whole Foods Market)',
-		time: '(Jun 2025 – Present)',
-		about:
-			'Whole Foods Market is a leading natural and organic grocery retailer and an Amazon subsidiary, operating at enterprise scale with strict security, compliance, and uptime requirements.',
-		desp: '<li>Provide Tier 1/2 technical support for team members across retail and corporate environments, resolving hardware, software, and access-related issues.</li><li>Support Microsoft 365, Azure AD, endpoint devices, and identity/access management in a large enterprise environment.</li><li>Troubleshoot Windows and macOS systems, peripherals, and network connectivity issues with a focus on minimal downtime.</li><li>Escalate incidents appropriately while documenting tickets clearly to meet SLA and compliance standards.</li><li>Collaborate with internal IT and security teams to support onboarding, offboarding, and system access requests.</li>'
 	},
 	{
 		title: 'Web Developer',
