@@ -79,6 +79,13 @@ The per-page stylesheets came from the original multi-page site and define some 
 - **Static prerendering** — `+layout.js` sets `prerender = true`, so `npm run build` also writes a real HTML file per route (`index.html`, `experience.html`, …). This keeps SEO, the GitHub Pages + CNAME setup, and any old `.html` links working.
 - **`404.html`** is both the styled error page and the SPA fallback for unknown URLs.
 
-### Deploy (GitHub Pages)
+### Deploy (GitHub Pages via GitHub Actions)
 
-Publish the contents of `build/`. It already includes `CNAME`, `robots.txt`, `sitemap.xml`, and the Google verification file.
+Deploys are automatic: `.github/workflows/deploy.yml` runs on every push to `main` (and can be triggered manually via the "Run workflow" button in the Actions tab).
+
+1. **`build` job** — `npm ci`, then `npm run build`, then uploads `build/` (which already includes `CNAME`, `robots.txt`, `sitemap.xml`, and the Google verification file) as a Pages artifact.
+2. **`deploy` job** — publishes that artifact to GitHub Pages via `actions/deploy-pages`.
+
+Repo settings required (already configured for this repo): **Settings → Pages → Source** must be **"GitHub Actions"**, not "Deploy from a branch" — there's no `index.html` at the repo root for the legacy branch-based deploy to find.
+
+No manual build/publish step is needed; just push to `main`.

@@ -1,72 +1,7 @@
 <script>
-	import { onMount } from 'svelte';
 	import { assets } from '$app/paths';
-
-	// particles.js relies on sloppy-mode globals, so it must load as a classic
-	// script rather than an ES module import.
-	function loadParticlesScript() {
-		return new Promise((resolve, reject) => {
-			if (window.particlesJS) return resolve();
-			const script = document.createElement('script');
-			script.src = `${assets}/assets/js/particles.min.js`;
-			script.onload = resolve;
-			script.onerror = reject;
-			document.head.appendChild(script);
-		});
-	}
-
-	onMount(() => {
-		let destroyed = false;
-
-		// config ported from assets/js/particle.js
-		loadParticlesScript().then(() => {
-			if (destroyed || !window.particlesJS) return;
-			window.particlesJS('particles-js', {
-				particles: {
-					number: { value: 140, density: { enable: true, value_area: 800 } },
-					color: { value: ['#0D0D0D', '#404040', '#737373', '#29C7D9'] },
-					shape: {
-						type: 'circle',
-						stroke: { width: 0, color: '#fff' },
-						polygon: { nb_sides: 5 }
-					},
-					opacity: { value: 1, random: false, anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false } },
-					size: { value: 8, random: true, anim: { enable: false, speed: 10, size_min: 10, sync: false } },
-					line_linked: { enable: true, distance: 150, color: '#808080', opacity: 0.4, width: 1 },
-					move: {
-						enable: true,
-						speed: 5,
-						direction: 'none',
-						random: false,
-						straight: false,
-						out_mode: 'out',
-						bounce: false,
-						attract: { enable: false, rotateX: 600, rotateY: 1200 }
-					}
-				},
-				interactivity: {
-					detect_on: 'window',
-					events: {
-						onhover: { enable: true, mode: 'repulse' },
-						onclick: { enable: true, mode: 'push' }
-					},
-					modes: {
-						repulse: { distance: 70, duration: 0.4 },
-						push: { particles_nb: 4 }
-					}
-				},
-				retina_detect: true
-			});
-		});
-
-		return () => {
-			destroyed = true;
-			if (window.pJSDom?.length) {
-				window.pJSDom.forEach((p) => p.pJS.fn.vendors.destroypJS());
-				window.pJSDom = [];
-			}
-		};
-	});
+	import Particles from '$lib/components/Particles.svelte';
+	import { particlesOptions } from '$lib/particlesConfig.js';
 </script>
 
 <svelte:head>
@@ -78,7 +13,7 @@
 </svelte:head>
 
 <!-- Particles background -->
-<div id="particles-js"></div>
+<Particles id="particles-js" options={particlesOptions()} />
 
 <section class="hero">
 	<div class="hero-inner">

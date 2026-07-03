@@ -176,63 +176,6 @@ html {
 
 /*
 -------------------------------------
-    SIDEBAR SVG ANIMATION
---------------------------------------
-*/
-
-
-.bike{
-  margin-top: 30px;
- display: block;
-}
-
-#right-wheel,
-#left-wheel {
- animation: wheel 3s linear infinite;
- transform-origin: center;
- transform-box: fill-box;
-}
-
-#man-bike {
- animation: bikes 1s ease-in-out infinite alternate;
- transform-origin: bottom;
-}
-
-#hat {
- animation: hat 1s ease-in-out infinite alternate;
- transform-origin: center;
- transform-box: fill-box;
-}
-
-@keyframes wheel {
- from {
-     transform: rotateZ(0deg);
- }
- to {
-     transform: rotateZ(360deg);
- }
-}
-
-@keyframes bikes {
- from {
-     transform: rotateX(0deg);
- }
- to {
-     transform: rotateX(12deg);
- }
-}
-
-@keyframes hat {
- from {
-     transform: translateY(0%) rotateZ(0deg);
- }
- to {
-     transform: translateY(10%) rotateZ(20deg);
- }
-}
-
-/*
--------------------------------------
     NAV BAR HIGHTLIGHTING
 --------------------------------------
 */
@@ -361,7 +304,9 @@ html {
 }
 
 .rounded-social-buttons .social-button {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   width: 3.125rem;
   height: 3.125rem;
@@ -372,7 +317,6 @@ html {
   color: #fefefe;
   font-size: 1.5625rem;
   font-weight: normal;
-  line-height: 2em;
   border-radius: 1.6875rem;
   transition: all 0.5s ease;
   margin-right: 0.25rem;
@@ -387,207 +331,54 @@ Rotate Transition in foote Soical Icon
       transition: background-color 0.3s, var(--trans-props);
 }
 
-
-/*
-------------------------------
-   TWITTER MICROANIMATION
--------------------------------
-*/
-.twitter:hover #wing1{
-      transform-origin:center;
-      animation: flap 0.4s ease-out infinite alternate;
-   }	
-   
-.twitter:hover #wing2{
-    transform-origin:center;
-    animation: flap 0.4s ease-in infinite alternate;
- }		
-
-@keyframes flap{
-     50%{
-      transform:scaleX(-1) rotate(-45deg) translate(-40px,-40px);
-     }
-   }
-
-/*
------------------------------
-   LINKEDIN MICROANIMATION
------------------------------
-*/
- 
-  .linkedin:hover .linkedin-icon-footer>rect{
-    animation: rect-up 0.3s linear infinite;
-  }
-  
-  
-  @keyframes rect-up {
-    50% {
-        y:10px;
-        height:11px;
-     }
-    0%{
-        y:13px;
-        height:8px;  
-        }
-    
-  }
-  
-  .linkedin:hover .linkedin-icon-footer> circle{
-    animation: bounce 0.4s linear infinite;
-  }
-  
-  @keyframes bounce {
-    75% {
-        cy: 8px;
-     }
-     50%{
-        cy: 4px
-     }
-    0%{
-        cy:4px
-        }
-    
-  }  
-
-/*
------------------------------
-   INSTAGRAM MICROANIMATION
------------------------------
-*/   
-  
-   .st0 {
-    fill:none;
-    stroke:#EF4649;
-    stroke-width:7;
-    stroke-linecap:round;
-    stroke-miterlimit:10;
-  }
-  
-  .instagram-icon-footer:hover #littleCircle {
-    stroke-dasharray:150;
-  }
-  
-  .instagram #shutter{
-    display:none;
-  }
-  .instagram-icon-footer:hover #shutter{
-    display: block;
-    animation: shutter 1s linear infinite;
-  }
-  .instagram-icon-footer:hover #lens{
-    fill:#EF4649;
-    animation: lens 1.5s linear infinite;
-  
-  }
-  
-  @keyframes shutter {
-    0%, 50% {
-            stroke-dashoffset: 150;
-            
-        }
-    75% {
-            fill:#EF4649;
-            stroke-dashoffset: 0;
-            stroke-width:11;
-        }
-  }
-  
-  @keyframes lens {
-    0%, 75% {
-            opacity: 0;
-        }
-    100% {
-            opacity: 1;
-        }
-  }
-  
-
-/*
------------------------------
-   GITHUB MICROANIMATION
------------------------------
-*/
-.github:hover #arm {
-  transform-origin: bottom right;
-  animation: moveArm 1s infinite alternate;
-}
-
-@keyframes moveArm {
-  0% { transform: rotate(10deg); }
-  100% { transform: rotate(-10deg); }
- }
-
-
-/* twitter SVG micro animation */
-.twitter-icon-footer{
-  margin-bottom: 6px;
-  width: 35px;
-}
-  /* linkedin SVG micro animation */
-
-.linkedin-icon-footer{
-  margin-bottom: 8px;
-  width: 30px;
-}
-
-/* instagram SVG micro animation */
-
-.instagram-icon-footer{
-  width:70px;
-  padding-right: 24px;
-  padding-bottom: 8px;
-}
-
-/* github SVG Micro animation */
-.github-icon-footer{
-  margin-bottom: 8px;
-  width: 35px;
-}
-
 /*
 ----------------------------------------
    HOVER EFFECT ON SOCIAL MEDIA ICONS
 ----------------------------------------
 */
 
-.rounded-social-buttons .social-button.twitter{
-  background:white;
-}
-
-.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
-  color: #000;
-  background: white;
-}
-
 .rounded-social-buttons .social-button.linkedin {
-  background: white;
+  background: #fff;
+  color: #0a66c2;
 }
 
 .rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
-  color: #000;
-  background: white;
+  background: #0a66c2;
+  color: #fff;
 }
 
 .rounded-social-buttons .social-button.instagram {
-  background: white;
+  background: #fff;
+  color: #e4405f;
 }
 
 .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
-  color: #000;
-  background: white;
+  background: #e4405f;
+  color: #fff;
 }
 
-.rounded-social-buttons .social-button.github{
-  background:white;
+.rounded-social-buttons .social-button.github {
+  background: #fff;
+  color: #181717;
 }
 
 .rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
-  color: #000000;
-  background: white;
+  background: #181717;
+  color: #fff;
 }
 
-/************ 
-  Contact Form In Footer 
+.social-icon-footer {
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.social-button:hover .social-icon-footer {
+  transform: scale(1.1);
+}
+
+/************
+  Contact Form In Footer
 *************/
 .display{
   height: auto;
@@ -779,42 +570,42 @@ form{
 
   
   .sp-2 {
-    height: 650px;
+    min-height: 650px;
   }
-  
+
 
   @media(max-width: 1500px) {
     .sp-2 {
-      height: 550px;
+      min-height: 550px;
     }
   }
 
   @media(max-width: 1200px) {
     .sp-2 {
-      height: 500px;
+      min-height: 500px;
     }
   }
 
   @media(max-width: 1080px) {
     .sp-2 {
-      height: 400px;
+      min-height: 400px;
     }
   }
 
   @media(max-width: 870px) {
     .sp-2 {
-      height: 400px;
+      min-height: 400px;
     }
   }
 
   @media(max-width: 770px) {
     .sp-2 {
-      height: 650px;
+      min-height: 650px;
     }
   }
 
   @media(max-width: 400px) {
     .sp-2 {
-      height: 500px;
+      min-height: 500px;
     }
   }
