@@ -38,7 +38,7 @@ export const exp = [
 		time: '(Jun 2025 – Present)',
 		about:
 			'Whole Foods Market is a leading natural and organic grocery retailer and an Amazon subsidiary, operating at enterprise scale with strict security, compliance, and uptime requirements.',
-		desp: '<li>Provide Tier 1/2 technical support for team members across retail and corporate environments, resolving hardware, software, and access-related issues.</li><li>Support Microsoft 365, Azure AD, endpoint devices, and identity/access management in a large enterprise environment.</li><li>Troubleshoot Windows and macOS systems, peripherals, and network connectivity issues with a focus on minimal downtime.</li><li>Escalate incidents appropriately while documenting tickets clearly to meet SLA and compliance standards.</li><li>Collaborate with internal IT and security teams to support onboarding, offboarding, and system access requests.</li>'
+		desp: '<li>Provided Tier 1/2 technical support for team members across retail and corporate environments, resolving hardware, software, and access-related issues.</li><li>Supported Microsoft 365, Azure AD, endpoint devices, and identity/access management in a large enterprise environment.</li><li>Troubleshot Windows and macOS systems, peripherals, and network connectivity issues with a focus on minimal downtime.</li><li>Escalated incidents appropriately while documenting tickets clearly to meet SLA and compliance standards.</li><li>Collaborated with internal IT and security teams to support onboarding, offboarding, and system access requests.</li>'
 	},
 	{
 		title: 'Teaching Assistant',
@@ -48,7 +48,7 @@ export const exp = [
 		time: '(May 2022 - Dec 2024)',
 		about:
 			'ThriveDX is a leading provider of digital skills training, focusing on preparing students for successful careers in technology through hands-on learning experiences and real-world projects in web development and cybersecurity.',
-		desp: '<li>Co-teach software development bootcamp programs for leading American universities, including New York University, North Carolina State University, University at Buffalo, New Jersey Institute of Technology, Old Dominion University, and the University of Nevada, Las Vegas.</li><li>Contribute expertise to educational programs across multiple university partnerships as an independent contractor.</li><li>Provide comprehensive instruction on a wide range of topics including HTML and Web Accessibility, CSS and CSS Frameworks, User Experience and User Interface Design, JavaScript and Front-End Web Development, Back-End Development and APIs, React and Redux, SQL and Data Modelling, Cybersecurity, Python, and Cloud Computing.</li><li>Consistently receive positive feedback from students and lead instructors for effectiveness in explaining complex concepts and fostering a positive learning environment.</li>'
+		desp: '<li>Co-taught software development bootcamp programs for leading American universities, including New York University, North Carolina State University, University at Buffalo, New Jersey Institute of Technology, Old Dominion University, and the University of Nevada, Las Vegas.</li><li>Contributed expertise to educational programs across multiple university partnerships as an independent contractor.</li><li>Provided comprehensive instruction on a wide range of topics including HTML and Web Accessibility, CSS and CSS Frameworks, User Experience and User Interface Design, JavaScript and Front-End Web Development, Back-End Development and APIs, React and Redux, SQL and Data Modelling, Cybersecurity, Python, and Cloud Computing.</li><li>Consistently received positive feedback from students and lead instructors for effectiveness in explaining complex concepts and fostering a positive learning environment.</li>'
 	},
 	{
 		title: 'Web Developer',
@@ -58,7 +58,7 @@ export const exp = [
 		time: '(Jan 2021 - Present)',
 		about:
 			'As a freelance web developer, I provide comprehensive web development services to a diverse international client base, including political campaigns, e-commerce businesses, local shops, and artists.',
-		desp: '<li>Develop and manage websites for a variety of clients, including political campaigns, e-commerce businesses, local shops, and artists.</li><li>Collaborate closely with clients to understand their unique needs and deliver tailored web solutions that align with their brand and business goals.</li><li>Implement e-commerce functionality and integrate payment processing systems for online businesses.</li><li>Provide additional creative services such as audio editing with Logic Pro and video editing using Final Cut Pro to offer comprehensive digital solutions.</li>'
+		desp: '<li>Developed and managed websites for a variety of clients, including political campaigns, e-commerce businesses, local shops, and artists.</li><li>Collaborated closely with clients to understand their unique needs and deliver tailored web solutions that align with their brand and business goals.</li><li>Implemented e-commerce functionality and integrate payment processing systems for online businesses.</li><li>Provided additional creative services such as audio editing with Logic Pro and video editing using Final Cut Pro to offer comprehensive digital solutions.</li>'
 	},
 	{
 		title: 'Musician',
@@ -68,7 +68,7 @@ export const exp = [
 		time: '(Jan 2009 - Present)',
 		about:
 			'As a professional musician, I have performed at various international venues and provided private music instruction across multiple countries.',
-		desp: '<li>Perform as a guitarist for major cruise lines such as Holland America, Carnival, Seabourn, Crystal, Royal Caribbean, and Princess, securing recurring engagements.</li><li>Entertain guests at international hotels in Dubai & Abu Dhabi and at private events worldwide.</li><li>Provide private music instruction to students in New Zealand, Australia, the United Kingdom, and the United States, adapting teaching methods to diverse cultural contexts.</li><li>Collaborate with various artists and adapt to different musical styles, enhancing versatility as a performer.</li>'
+		desp: '<li>Performed as a guitarist for major cruise lines such as Holland America, Carnival, Seabourn, Crystal, Royal Caribbean, and Princess, securing recurring engagements.</li><li>Entertained guests at international hotels in Dubai & Abu Dhabi and at private events worldwide.</li><li>Provided private music instruction to students in New Zealand, Australia, the United Kingdom, and the United States, adapting teaching methods to diverse cultural contexts.</li><li>Collaborated with various artists and adapt to different musical styles, enhancing versatility as a performer.</li>'
 	}
 ];
 
