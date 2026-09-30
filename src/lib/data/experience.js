@@ -8,7 +8,7 @@ export const exp = [
 		time: '(July 2026 - Present)',
 		about:
 			'IBM is a global technology and consulting leader, driving enterprise-scale innovation across cloud computing, artificial intelligence, quantum computing, and infrastructure management.',
-		desp: "<li>To be updated soon...</li>"
+		desp: "<li>Support enterprise clients within IBM’s Platinum Experience offering, IBM’s highest tier of software support, across IBM’s full software portfolio. Serve clients operating critical environments across global and central banking, insurance, payments, professional services, and automotive industries.</li><li>Contribute to technical account support and client advocacy, maintaining a holistic view of account priorities, support needs, and emerging risks.</li><li>Participate in account and ticket reviews, coordinate with subject matter experts and management, and keep stakeholders aligned on escalations, next steps, and remediation progress.</li><li>Perform initial triage across support cases, analyze issues, and proactively communicate vulnerabilities and maintenance recommendations.</li><li>Build and use AI agents and automation powered by Model Context Protocol (MCP) to streamline account monitoring, reporting, analysis, and client communications.</li>"
 	},
 	{
     	title: 'Technical Operations Analyst',
@@ -135,7 +135,8 @@ export const skillGroups = [
             'Splunk', 
             'PagerDuty', 
             'Monitoring & Observability', 
-            'Log Analysis'
+            'Log Analysis',
+            'IBM Instana'
         ]
     },
     {
@@ -145,11 +146,20 @@ export const skillGroups = [
             'Incident Response', 
             'Incident Communication', 
             'ServiceNow', 
+            'Salesforce Lightning — Case Management',
             'Jira', 
             'MFA', 
             'SSO', 
             'VPN', 
-            'API/JSON Debugging'
+            'API/JSON Debugging',
+            'Initial Triage',
+            'Platinum Account Support',
+            'Technical Account Support',
+            'Patching Assistance',
+            'Account & Ticket Reviews',
+            'Client Advocacy & Relationship Support',
+            'Stakeholder Communication',
+            'Cross-Team Escalation Coordination'
         ]
     },
     {
@@ -163,7 +173,8 @@ export const skillGroups = [
             'Remote Support Tools',
             'Royal TSX',
             'Printer Troubleshooting',
-            'FreePBX'
+            'FreePBX',
+            'IBM Sterling B2B Integrator'
         ]
     },
     {
@@ -178,6 +189,10 @@ export const skillGroups = [
             'Penetration Testing',
             'Threat Analysis',
             'Vulnerability Assessment',
+            'Vulnerability Monitoring',
+            'Proactive Vulnerability Reporting',
+            'Proactive Risk Communication',
+            'Automated Vulnerability Communications',
             'Geofencing',
             'ADA / GDPR Compliance',
             'Trust Cookies'
@@ -191,7 +206,13 @@ export const skillGroups = [
             'Claude', 
             'Prompt Engineering', 
             'Office 365', 
-            'Slack'
+            'Slack',
+            'AI Agents',
+            'Model Context Protocol (MCP)',
+            'Workflow Automation',
+            'AI Skills Documentation',
+            'monday.com',
+            'IBM Cognos'
         ]
     },
     {

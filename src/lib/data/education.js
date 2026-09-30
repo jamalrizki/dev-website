@@ -42,7 +42,10 @@ export const featuredCerts = [
 	{ title: 'CompTIA PenTest+', issuer: 'CompTIA', link: 'https://www.isaca.org/credentialing/cism' },
 	{ title: 'ISACA CISM', issuer: 'ISACA', link: 'https://www.comptia.org/certifications/network' },
 	{ title: 'AWS Solutions Architect', issuer: 'Amazon', link: 'https://aws.amazon.com/certification/certified-solutions-architect-associate/' },
-	{ title: 'AWS Certified Developer', issuer: 'Amazon', link: 'https://aws.amazon.com/certification/certified-solutions-architect-associate/' }
+	{ title: 'AWS Certified Developer', issuer: 'Amazon', link: 'https://aws.amazon.com/certification/certified-solutions-architect-associate/' },
+	{ title: 'Claude Certified Architect - Professional', issuer: 'Anthropic', link: 'https://anthropic-partners.skilljar.com/page/partner-certifications' },
+	{ title: 'AWS Certified AI Practitioner', issuer: 'Amazon', link: 'https://aws.amazon.com/certification/certified-ai-practitioner/' },
+	{ title: 'Claude Certified Developer - Foundations', issuer: 'Anthropic', link: 'https://anthropic-partners.skilljar.com/page/partner-certifications' }
 ];
 
 export const certGroups = [
@@ -147,6 +150,7 @@ export const certGroups = [
 	{
 		label: 'AI',
 		items: [
+			{ title: 'Claude Certified Associate - Foundations (Anthropic)', link: 'https://anthropic-partners.skilljar.com/page/partner-certifications' },
 			{ title: 'Google AI Essentials (Google)', link: 'https://grow.google/ai-essentials/' },
 			{ title: 'Agentic AI Fundamentals: Architecture, Frameworks and Applications (LinkedIn Learning)', link: 'https://www.linkedin.com/learning/search?keywords=agentic+ai+fundamentals' },
 			{ title: 'Build Agents with OpenClaw (LinkedIn Learning)', link: 'https://www.linkedin.com/learning/search?keywords=build+agents+openclaw' },
