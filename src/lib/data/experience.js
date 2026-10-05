@@ -136,7 +136,8 @@ export const skillGroups = [
             'PagerDuty', 
             'Monitoring & Observability', 
             'Log Analysis',
-            'IBM Instana'
+            'IBM Instana',
+            'IBM On Call Manager'
         ]
     },
     {
@@ -212,7 +213,8 @@ export const skillGroups = [
             'Workflow Automation',
             'AI Skills Documentation',
             'monday.com',
-            'IBM Cognos'
+            'IBM Cognos',
+            'IBM Bob'
         ]
     },
     {
