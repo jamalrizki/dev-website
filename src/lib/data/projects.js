@@ -1,5 +1,24 @@
 // Project cards (ported from assets/js/project.js)
 
+// AI projects (live apps; cards open the live site in a new tab)
+export const ai = [
+	{
+		title: 'Security Lookup Hub',
+		cardImage: '/assets/images/project-page/static/ai-security-hub.webp',
+		liveUrl: 'https://jamalrizki.github.io/Security-lookup-hub/'
+	},
+	{
+		title: 'CVE Explainer - AI + MCP',
+		cardImage: '/assets/images/project-page/static/ai-cve-explainer.webp',
+		liveUrl: 'https://jamalrizki.github.io/cve-explainer/'
+	},
+	{
+		title: 'Jaizz Chat - AI Jazz Assistant',
+		cardImage: '/assets/images/project-page/static/ai-jazz-chat.webp',
+		liveUrl: 'https://jamalrizki.github.io/jazz-fact-chat/'
+	}
+];
+
 // Professional projects
 export const projects = [
 	{

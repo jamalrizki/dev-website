@@ -1,21 +1,23 @@
 <script>
 	import { assets } from '$app/paths';
 	import Lightbox from '$lib/components/Lightbox.svelte';
-	import { projects, personal, apps, cyber } from '$lib/data/projects.js';
+	import { ai, projects, personal, apps, cyber } from '$lib/data/projects.js';
 
 	const sections = [
+		{ key: 'AI Projects', heading: 'AI Projects', items: ai },
 		{ key: 'Professional Projects', heading: 'Professional Projects', items: projects },
 		{ key: 'Mobile Apps', heading: 'Apps', items: apps },
 		{ key: 'Cybersecurity Projects', heading: 'Cybersecurity Projects', items: cyber },
 		{ key: 'Personal Projects', heading: 'Personal Projects', items: personal }
 	];
 
-	const filters = ['All', 'Professional Projects', 'Mobile Apps', 'Cybersecurity Projects', 'Personal Projects'];
+	const filters = ['All', 'AI Projects', 'Professional Projects', 'Mobile Apps', 'Cybersecurity Projects', 'Personal Projects'];
 	let active = $state('All');
 	let shownSections = $derived(active === 'All' ? sections : sections.filter((s) => s.key === active));
 
 	let selected = $state(null);
-	const isPdf = (item) => /\.pdf(\?|$)/i.test(item.gifUrl);
+	// PDFs and live-only projects (no demo video) open in a new tab instead of the lightbox
+	const isExternal = (item) => !item.gifUrl || /\.pdf(\?|$)/i.test(item.gifUrl);
 </script>
 
 <svelte:head>
@@ -66,8 +68,8 @@
 		<div class="row page-content">
 			{#each section.items as project (project.title)}
 				<div class="column skill-card card">
-					{#if isPdf(project)}
-						<a href={project.gifUrl} target="_blank" rel="noopener noreferrer" title={project.title}>
+					{#if isExternal(project)}
+						<a href={project.gifUrl || project.liveUrl} target="_blank" rel="noopener noreferrer" title={project.title}>
 							<div class="wrapper">
 								<img src={project.cardImage} alt={project.title} loading="lazy" decoding="async" />
 								<div class="header"></div>
