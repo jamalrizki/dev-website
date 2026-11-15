@@ -16,6 +16,11 @@ export const ai = [
 		title: 'CVE Explainer - AI + MCP',
 		cardImage: '/assets/images/project-page/static/ai-cve-explainer.webp',
 		liveUrl: 'https://jamalrizki.github.io/cve-explainer/'
+	},
+	{
+		title: 'Austin Free Parking Finder',
+		cardImage: '/assets/images/project-page/static/ai-austin-parking.webp',
+		liveUrl: 'https://jamalrizki.github.io/Austin-Parking/'
 	}
 ];
 
